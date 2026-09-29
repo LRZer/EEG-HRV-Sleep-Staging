@@ -1,0 +1,62 @@
+{
+  "source": "results/fusion_model.joblib",
+  "sha256": "471b0cf1e717aef31737eceb09e2d4e7f005decf7750665f0204a5357e81efde",
+  "size": 5366459,
+  "parts": [
+    {
+      "name": "fusion_model.part00",
+      "sha256": "2efa83ab3cee7f82ce16aa059d4ef56734457a71a6bbfe44f1eaea2695f1f296",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part01",
+      "sha256": "efe715b302278bd511ef04dee0635a4d49718796a8f719dda924b91655a512da",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part02",
+      "sha256": "a03aa1af14773a9d060feab71710e6a0cf4309ef90e8627be9adaac677b5f803",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part03",
+      "sha256": "ae8730acd0508f217bbb20a347e91a7782a96fb873af78bfdbcfc29cee7c46b9",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part04",
+      "sha256": "e3aa0b20e3d39cf3b633dc707cd2f903d9703616a977cc1f09012c351880ddbe",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part05",
+      "sha256": "fb271a7ab6eea6a0a7a27b84a14bdff1b7ef8d7aa70bf4a7bdce155fa516d0b0",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part06",
+      "sha256": "ee64b7d919c01fe8dd010ac5912d7c5c18b4c94ba9848fa4d36f49f2104f141d",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part07",
+      "sha256": "2bff23ab6d00caf178f51dcaa0a281edcb149a776ecc7ff75b7c8488870ceb2d",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part08",
+      "sha256": "d4dcb4610acb9f0f74cb59ef6515c67fbf95210f78204a5a8bc9e5eca0ee6ea3",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part09",
+      "sha256": "a5871b956e09f4f6dd6d1cab36189c5b68e957cb73b0223a566d3ada761edee0",
+      "size": 524288
+    },
+    {
+      "name": "fusion_model.part10",
+      "sha256": "a76cc7ab7729471ffdd55fab5c5896ecc750b3ed1fadfb51f8350374b3f91b27",
+      "size": 123579
+    }
+  ]
+}
