@@ -1,0 +1,302 @@
+{
+  "asset": "prepared-eeg-hrv-v2.zip",
+  "bytes": 385952669,
+  "sha256": "ec5f8b7f82667ce4836fee215b5f6fea8714da9553eb43193dc023360f8f3813",
+  "files": [
+    {
+      "path": "cache/deep_learning/contexts.npy",
+      "bytes": 750928,
+      "sha256": "650afbae55de93ebd9e8c8ad157e1abce4b5015e43920b9d1bcb212b54be2188"
+    },
+    {
+      "path": "cache/deep_learning/data_audit.json",
+      "bytes": 16593,
+      "sha256": "b922ff709158c09f4009a923305a2d97ed0db9c41555e8072c36c0e2b57c4af5"
+    },
+    {
+      "path": "cache/deep_learning/epochs.csv",
+      "bytes": 905898,
+      "sha256": "25319a2c95b5f56a3157a5d6333ab5361ba322bccc3c603c01423522785c5c52"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-01.npz",
+      "bytes": 18838576,
+      "sha256": "d0578cf5012f10e44c9cd137a2072f4a2ccffb9b9f0e08932d4ddded539b6c5b"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-02.npz",
+      "bytes": 18528198,
+      "sha256": "d263399dcbbab69a7235f5df9c3dd80d1012d60b344164edda0793ceac850296"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-03.npz",
+      "bytes": 16174718,
+      "sha256": "46a9f86729df2c10a09668e106f3e31bc27be8e1ccd3125aced00925a30e3eba"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-04.npz",
+      "bytes": 15528309,
+      "sha256": "e91c6a8e4932027b1754aaa2dc9c6eaafe0a2866ede261cec1836144d109abab"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-05.npz",
+      "bytes": 18592050,
+      "sha256": "6dad4c6de600b98d061ae3304bdf096b2dd5d7c821f07a6ed8091d1fdfa1ee55"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-06.npz",
+      "bytes": 16754997,
+      "sha256": "9994901bc21875eb11a1ef31f646b84e58c6e21ca833762d5711160b70e752c4"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-07.npz",
+      "bytes": 15997066,
+      "sha256": "399cbf50f68b8fd4ec91638458db5ad39c540593f7ee197fb3a6e7753926a0c1"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-08.npz",
+      "bytes": 19755632,
+      "sha256": "b54ac8dc398ca725f9a081c9f23db94cbc286b12ac3f89a1a6206ef1ce7b9c10"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-09.npz",
+      "bytes": 19094924,
+      "sha256": "81f7c5d131d669c529a0491cc39ee76621bb4dd0cef577c3cc164347405a8fc4"
+    },
+    {
+      "path": "cache/deep_learning/ISRUC-III-10.npz",
+      "bytes": 15544874,
+      "sha256": "9b516cf22f4ece344c113d811b058408fba807bde6b90f40dcba79368d1ff387"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp01a.npz",
+      "bytes": 4969750,
+      "sha256": "e483ec2dfd7448a0b2b7830fe06436de4bd6c90fe97ba200daf0c2945028a105"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp01b.npz",
+      "bytes": 7484494,
+      "sha256": "8fe4e2c73d78ff75f53fb18737bcbdbb0a70c5b60e513189852168a626e38e33"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp02a.npz",
+      "bytes": 7236445,
+      "sha256": "6fcd3182dd7a4e2527eb07dad637966c97880334bdb5d6843dff39835b7df822"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp02b.npz",
+      "bytes": 5530944,
+      "sha256": "5859988a67fd3415c167c08d8680c871f7be38a875a287b849bcb027045ca44e"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp03.npz",
+      "bytes": 14903023,
+      "sha256": "bc9c9d47753b75d9e4b88f001891d606ac2014640cccee43c0fb06aa158ef6fd"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp04.npz",
+      "bytes": 14938943,
+      "sha256": "24a01835ae1643582da4c66d5055dd6da04883566b7e9df4734fda5b2ca85143"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp14.npz",
+      "bytes": 14794623,
+      "sha256": "a293342cbe074f09a5e6ac2bb9621f126ec3e17ded418c61f4ab66bedc7464f3"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp16.npz",
+      "bytes": 14389253,
+      "sha256": "9f6f4948d3d7ae9fa36bc1eb8c317d8210ceeaa97df6d24318db6d8419f51a51"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp32.npz",
+      "bytes": 13241370,
+      "sha256": "8962b0314947dc57ab7a4e95b4d9878ade4a292f509e2c5670f0c0f91af403a1"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp37.npz",
+      "bytes": 14385778,
+      "sha256": "459576cdba42ce2dbb2b4e2cd0d75e2c321a1c484b3e8cac53dbbe3e6e247bbf"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp41.npz",
+      "bytes": 16009556,
+      "sha256": "f94db609c2c1522293e0ce67b6ff6ac32eb7b056ac81940d038e344f65117f62"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp45.npz",
+      "bytes": 15690705,
+      "sha256": "2783d72ca04d559c88774461c9ed143fc205493531949325f172c5e20700d2e2"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp48.npz",
+      "bytes": 15680773,
+      "sha256": "edeab8c498c3578a1807de60d8647d2c4473a490c372ed518a425f85f90f924a"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp59.npz",
+      "bytes": 9506454,
+      "sha256": "d3d74cee328a3a57747006795219dc95e43d7e7295fe7474f8339bd09c684fd4"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp60.npz",
+      "bytes": 14561758,
+      "sha256": "49779512f515d059dc597128258b1ddfca41332eabee6af57f6db9413590e6f4"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp61.npz",
+      "bytes": 14852117,
+      "sha256": "9f11ef7b1563033a933a3c8be90e2732a7f14df73c88b6a146288eb874f0c8bb"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp66.npz",
+      "bytes": 9068210,
+      "sha256": "c2aa2c3576cc5bb4fb709360728c1b7aac03948f55a656bde241e273869b4fb0"
+    },
+    {
+      "path": "cache/deep_learning/MIT-slp67x.npz",
+      "bytes": 3189421,
+      "sha256": "c17eb4a975377260794ea4f6f203b0e0f66a69fb9872d5fac8bfc1a4c1cffa7e"
+    },
+    {
+      "path": "cache/v2/contexts.npy",
+      "bytes": 2252528,
+      "sha256": "c03c298c03f450082fc52d9fbe45e1f93e3c8ec944ba1f5359c1e539fd682e12"
+    },
+    {
+      "path": "cache/v2/ecg_detector_audit.csv",
+      "bytes": 3712,
+      "sha256": "dbbaedc6f03b2a23af8ba01fdadc5d3575068920cd66b76809fd5c58e8d9736b"
+    },
+    {
+      "path": "cache/v2/ecg_review_00.npz",
+      "bytes": 3684,
+      "sha256": "ff996b9082666d7b9e4820ce04717ea8be817b2cbbfe71d8ee155f60d1a307a8"
+    },
+    {
+      "path": "cache/v2/ecg_review_01.npz",
+      "bytes": 3663,
+      "sha256": "aba0bf702ff08672af07ad21c2785e831f777146af03541b305eef34570f924e"
+    },
+    {
+      "path": "cache/v2/ecg_review_02.npz",
+      "bytes": 5867,
+      "sha256": "469b51b2986931d518e5395ade7bcbaec2c2c6199f05680f1632cb214c6a0a60"
+    },
+    {
+      "path": "cache/v2/ecg_review_03.npz",
+      "bytes": 5500,
+      "sha256": "46b6513eaa1f769a763ac9911837e604ed6cd956614af47f41fabf2b8981f28c"
+    },
+    {
+      "path": "cache/v2/ecg_review_04.npz",
+      "bytes": 4590,
+      "sha256": "72c3c5f3b3d8663d46a90be0c54202a18661c961894c3c0ac0bc37cb15d1b280"
+    },
+    {
+      "path": "cache/v2/ecg_review_05.npz",
+      "bytes": 5254,
+      "sha256": "72ef55d7d26df571609b2c3393129b455117b9ec17009c29ddb5007c6175dec0"
+    },
+    {
+      "path": "cache/v2/ecg_review_06.npz",
+      "bytes": 5045,
+      "sha256": "604188f727cb32551a33f388d5952f7669e7c1c8dbd98dd7b1b358175cbc9aa4"
+    },
+    {
+      "path": "cache/v2/ecg_review_07.npz",
+      "bytes": 6267,
+      "sha256": "e68a10b9e014a191183d53180f3d8cd2f798b051360690965f3cf8c381e5c988"
+    },
+    {
+      "path": "cache/v2/ecg_review_08.npz",
+      "bytes": 4339,
+      "sha256": "24f1b8c0974061344b3edb03758e960cfc74526d4846c1a3cee109dc961a7ef2"
+    },
+    {
+      "path": "cache/v2/ecg_review_09.npz",
+      "bytes": 5114,
+      "sha256": "1fc4aecaf1f92b4ee963161f972adba21c0ff5ffa816bd204e17765af00a455e"
+    },
+    {
+      "path": "cache/v2/ecg_review_10.npz",
+      "bytes": 5288,
+      "sha256": "147cf2a3dbda6830b87ccb12458ab90e6ddf8309e31d8d9f959a9d2a708b9060"
+    },
+    {
+      "path": "cache/v2/ecg_review_11.npz",
+      "bytes": 4878,
+      "sha256": "65e946259818e4e426d8c47a14503d92d0e78e06c1b5255a3b416f3b265a2838"
+    },
+    {
+      "path": "cache/v2/ecg_review_12.npz",
+      "bytes": 5438,
+      "sha256": "96f13b4b54109160305c11cd88cde9893893600ded0c8c6cc9f2872776530c43"
+    },
+    {
+      "path": "cache/v2/ecg_review_13.npz",
+      "bytes": 3629,
+      "sha256": "9ceb34f10f2b3829f238b5c67eb1fa6cc66463d699ec05f1dfe33a75d2c17c7b"
+    },
+    {
+      "path": "cache/v2/ecg_review_14.npz",
+      "bytes": 4336,
+      "sha256": "33e4001d0da89fb0e707d6e5a84823dcc544bdbfa569c6105dab99485345053b"
+    },
+    {
+      "path": "cache/v2/ecg_review_15.npz",
+      "bytes": 7369,
+      "sha256": "d797da2eed740066dde5f342fbfd2505ad7edd540a7366483bd74b180514b766"
+    },
+    {
+      "path": "cache/v2/ecg_review_16.npz",
+      "bytes": 7766,
+      "sha256": "056159e48bc4bb9489eb882cacf37f47a309a39b5b6a93a859ecbba6e4e7fde9"
+    },
+    {
+      "path": "cache/v2/ecg_review_17.npz",
+      "bytes": 6868,
+      "sha256": "16aeef1c83f58b52903c02a6e71e990f0fbf2e1f5d34bd9893ef49e3ce5d7e6f"
+    },
+    {
+      "path": "cache/v2/ecg_review_18.npz",
+      "bytes": 7454,
+      "sha256": "f1d49ce576cb87a465137d0b86c88a2c2b40c9860165a571e9129faca47fde9f"
+    },
+    {
+      "path": "cache/v2/ecg_review_19.npz",
+      "bytes": 6788,
+      "sha256": "52b1204b45e3833e2232a632dc2406c99efd19007c3ef26ff3d8d3dc6af9b797"
+    },
+    {
+      "path": "cache/v2/ecg_review_20.npz",
+      "bytes": 8177,
+      "sha256": "16260d9ccaa8417a5399f5ab290dbe1fcd66cc72cee55f5f90d429b71df57716"
+    },
+    {
+      "path": "cache/v2/ecg_review_21.npz",
+      "bytes": 7447,
+      "sha256": "d4c5ad8a62c2ea70b76b0d030118dad77a608f0e68c316765ea65d21caccf414"
+    },
+    {
+      "path": "cache/v2/ecg_review_22.npz",
+      "bytes": 8257,
+      "sha256": "56dd156ca86c00eaad416bac862c6ff5db9c504fbb066ef5b10b325eb076466c"
+    },
+    {
+      "path": "cache/v2/epochs.csv",
+      "bytes": 905898,
+      "sha256": "25319a2c95b5f56a3157a5d6333ab5361ba322bccc3c603c01423522785c5c52"
+    },
+    {
+      "path": "cache/v2/quality.npy",
+      "bytes": 225368,
+      "sha256": "a3045b9a297d57f690c76947987e6d553a611bafbde5278d5efcc1996282c1e2"
+    },
+    {
+      "path": "cache/v2/quality_audit.json",
+      "bytes": 511,
+      "sha256": "47ea544d7731f61789e8a7afabbd15fa5be2b7b5f01167797168b0a5014de385"
+    }
+  ]
+}

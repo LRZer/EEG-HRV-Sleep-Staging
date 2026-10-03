@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="691.2pt" height="315.432pt" viewBox="0 0 691.2 315.432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T01:43:21.498791</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 315.432
+L 691.2 315.432
+L 691.2 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.634 136.6488
+L 137.466 136.6488
+Q 143.046 136.6488 143.046 131.1048
+L 143.046 65.1312
+Q 143.046 59.5872 137.466 59.5872
+L 23.634 59.5872
+Q 18.054 59.5872 18.054 65.1312
+L 18.054 131.1048
+Q 18.054 136.6488 23.634 136.6488
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #e7f1fa; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 168.714 136.6488
+L 290.916 136.6488
+Q 296.496 136.6488 296.496 131.1048
+L 296.496 65.1312
+Q 296.496 59.5872 290.916 59.5872
+L 168.714 59.5872
+Q 163.134 59.5872 163.134 65.1312
+L 163.134 131.1048
+Q 163.134 136.6488 168.714 136.6488
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #e7f1fa; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 23.634 258.6168
+L 137.466 258.6168
+Q 143.046 258.6168 143.046 253.0728
+L 143.046 187.0992
+Q 143.046 181.5552 137.466 181.5552
+L 23.634 181.5552
+Q 18.054 181.5552 18.054 187.0992
+L 18.054 253.0728
+Q 18.054 258.6168 23.634 258.6168
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #e4f2ea; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 168.714 258.6168
+L 290.916 258.6168
+Q 296.496 258.6168 296.496 253.0728
+L 296.496 187.0992
+Q 296.496 181.5552 290.916 181.5552
+L 168.714 181.5552
+Q 163.134 181.5552 163.134 187.0992
+L 163.134 253.0728
+Q 163.134 258.6168 168.714 258.6168
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #e4f2ea; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 322.164 197.6328
+L 444.366 197.6328
+Q 449.946 197.6328 449.946 192.0888
+L 449.946 120.5712
+Q 449.946 115.0272 444.366 115.0272
+L 322.164 115.0272
+Q 316.584 115.0272 316.584 120.5712
+L 316.584 192.0888
+Q 316.584 197.6328 322.164 197.6328
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #fff1d9; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 475.614 197.6328
+L 597.816 197.6328
+Q 603.396 197.6328 603.396 192.0888
+L 603.396 120.5712
+Q 603.396 115.0272 597.816 115.0272
+L 475.614 115.0272
+Q 470.034 115.0272 470.034 120.5712
+L 470.034 192.0888
+Q 470.034 197.6328 475.614 197.6328
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #eae8f6; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 620.694 197.6328
+L 661.986 197.6328
+Q 667.566 197.6328 667.566 192.0888
+L 667.566 120.5712
+Q 667.566 115.0272 661.986 115.0272
+L 620.694 115.0272
+Q 615.114 115.0272 615.114 120.5712
+L 615.114 192.0888
+Q 615.114 197.6328 620.694 197.6328
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #f0f2f5; stroke: #ced5df; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 146.720953 98.3952
+Q 153.647859 98.3952 159.009517 98.3952
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 153.809517 95.7952
+L 159.009517 98.3952
+L 153.809517 100.9952
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 146.720953 220.3632
+Q 153.647859 220.3632 159.009517 220.3632
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 153.809517 217.7632
+L 159.009517 220.3632
+L 153.809517 222.9632
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 298.464122 100.206035
+Q 307.656462 119.740582 316.182348 137.858854
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 316.320827 132.046727
+L 316.182348 137.858854
+L 311.615733 134.260795
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 298.412626 218.52922
+Q 307.656651 197.354108 316.274438 177.613509
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 311.811136 181.338954
+L 316.274438 177.613509
+L 316.576813 183.419417
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 453.620953 156.0528
+Q 460.547859 156.0528 465.909517 156.0528
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 460.709517 153.4528
+L 465.909517 156.0528
+L 460.709517 158.6528
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 606.508321 156.0528
+Q 609.252952 156.0528 610.432335 156.0528
+" clip-path="url(#p91f255b7a1)" style="fill: none; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 605.232335 153.4528
+L 610.432335 156.0528
+L 605.232335 158.6528
+z
+" clip-path="url(#p91f255b7a1)" style="fill: #5f6c80; stroke: #5f6c80; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="80.55" y="89.96073" transform="rotate(-0 80.55 89.96073)">EEG spectrogram</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(50.993437 109.588742)">30 s · 100 Hz</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(34.614844 119.666773)">29 frames × 89 bins</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="229.815" y="90.038855" transform="rotate(-0 229.815 90.038855)">Epoch Transformer</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(189.724219 109.588742)">2 layers · 4 heads</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(181.135547 119.666773)">96-dimensional token</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="80.55" y="212.006855" transform="rotate(-0 80.55 212.006855)">ECG-derived HRV</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(34.176797 231.556742)">26 values + 26 flags</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(31.780547 241.634773)">3 coverage indicators</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="229.815" y="212.006855" transform="rotate(-0 229.815 212.006855)">Cardiac MLP</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(211.731328 231.556742)">55 → 96</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(179.688516 241.634773)">20% modality dropout</text>
+   </g>
+   <g id="text_9">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="383.265" y="147.269313" transform="rotate(-0 383.265 147.269313)">Residual gated fusion</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(328.071094 169.020422)">EEG + gate × correction</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(320.759297 179.098453)">Gate constrained by quality</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="536.715" y="147.308375" transform="rotate(-0 536.715 147.308375)">Temporal Transformer</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(484.609219 169.020422)">15 past/current epochs</text>
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'" transform="translate(496.624219 179.098453)">2 layers · 4 heads</text>
+   </g>
+   <g id="text_13">
+    <text style="font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="641.34" y="147.308375" transform="rotate(-0 641.34 147.308375)">5</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #394658; font: 9px 'DejaVu Sans'; text-anchor: middle" x="641.34" y="174.059438" transform="rotate(-0 641.34 174.059438)">stages</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #182638; font: 700 17px 'DejaVu Sans'; text-anchor: start" x="18.054" y="24.66" transform="rotate(-0 18.054 24.66)">Controlled EEG–HRV fusion study</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #536276; font: 10px 'DejaVu Sans'; text-anchor: start" x="18.054" y="45.1728" transform="rotate(-0 18.054 45.1728)">A6 shown; variants compare modality, fusion and context under a fixed protocol</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #536276; font: 9px 'DejaVu Sans'; text-anchor: start" x="21.96" y="290.772" transform="rotate(-0 21.96 290.772)">Training: 22 subjects · 3 seeds · final epoch 40       Evaluation: 4 subjects · 3,009 epochs · exploratory reused holdout</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p91f255b7a1">
+   <rect x="10.8" y="10.8" width="669.6" height="293.832"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,120 @@
+{
+  "release": "v2.0.0",
+  "repository": "LRZer/EEG-HRV-Sleep-Staging",
+  "archives": [
+    {
+      "archive": "mit-bih-psg-1.0.0.zip",
+      "bytes": 581778079,
+      "sha256": "7207036b5878ac563beb9f4a7c7a15a78da4a8ab0754d4a5f7068e26a7485597",
+      "parts": [
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part001",
+          "bytes": 50331648,
+          "sha256": "a59a301b9c6ca6e35d103399a6f5a0dd92f04c71425de68c1a0fe5eaf233ee9d"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part002",
+          "bytes": 50331648,
+          "sha256": "e80a3b692a933641733d6a95ce7a813cef5b35b036af4238b8ab2e76d053da4a"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part003",
+          "bytes": 50331648,
+          "sha256": "6fcac8fb4f19ee431ef828a4d6b85adc602e444665e922b0a86f481c20504cb0"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part004",
+          "bytes": 50331648,
+          "sha256": "3668ca3a4ab6aabc8ee215f4b8678adb9b7e428c27fd4e492c0703ce2adf26a2"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part005",
+          "bytes": 50331648,
+          "sha256": "9cd1619326f37b7027461e600745a8063c9189e681629bad827c9cef5d6a8268"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part006",
+          "bytes": 50331648,
+          "sha256": "349d85c4517a1bf2fe526a15a4f0bd9f77b79e3aa2f3e50efea1222fbb73a263"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part007",
+          "bytes": 50331648,
+          "sha256": "ce7c3b4b09d3998bbbe8fd3e23de3078f25cbf1d2bf6db540568055eb521c205"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part008",
+          "bytes": 50331648,
+          "sha256": "ab68ae16ee36ff37d29431dae7d18efd614836b3672b27e81698b040bb4fdf3b"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part009",
+          "bytes": 50331648,
+          "sha256": "93b07c033ff0536511f98dd800121c7c12edcb1f7d0e16051636979273e5570b"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part010",
+          "bytes": 50331648,
+          "sha256": "7beada00821cca0bdb4d9758bb1e4632ddeeb23ec856804e82c3fee45f7c7b11"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part011",
+          "bytes": 50331648,
+          "sha256": "ff349aec29d8da3339a498a5368a5212b2c3d5b48ea91885e8df3440acbb8434"
+        },
+        {
+          "asset": "mit-bih-psg-1.0.0.zip.part012",
+          "bytes": 28129951,
+          "sha256": "44ad55dce5a48403cfafc4141034ca16a2a2b88bb41231133b9344343d80f5a7"
+        }
+      ]
+    },
+    {
+      "archive": "prepared-eeg-hrv-v2.zip",
+      "bytes": 385952669,
+      "sha256": "ec5f8b7f82667ce4836fee215b5f6fea8714da9553eb43193dc023360f8f3813",
+      "parts": [
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part001",
+          "bytes": 50331648,
+          "sha256": "8a29aedb8ebdb93b3804e6aa984d47dda4f43bfa466d0eced9ee2bb1a065c5ea"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part002",
+          "bytes": 50331648,
+          "sha256": "9ba1ec70b6dd8b96616e0a79603d6f54c479c7f4c1d93e1474051b0bff022a81"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part003",
+          "bytes": 50331648,
+          "sha256": "7f4444bb67794a727795eca386c3bdbbcf76451932a15578f3dd24330fefb7cf"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part004",
+          "bytes": 50331648,
+          "sha256": "6dc714ea4b6408ed5fbf1928f6aff4503e78e1c0e50fae87d7dcedf80d6d5aa0"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part005",
+          "bytes": 50331648,
+          "sha256": "2dde19620f7e8ee627afce8d58d57d54a739380e0ad6232c2a34f3462d7ff375"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part006",
+          "bytes": 50331648,
+          "sha256": "c4f694b7abec816f086add586d0d627cb03a8687ba245bad7a7bfbcffcde7271"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part007",
+          "bytes": 50331648,
+          "sha256": "c75c1fa765e121c237904252e51b21ecff2412f5a1ed326607bc2301e66e00b3"
+        },
+        {
+          "asset": "prepared-eeg-hrv-v2.zip.part008",
+          "bytes": 33631133,
+          "sha256": "4f536b223fc4dd5e8645306e79532d439a2c23912948ca029ef66016b4301627"
+        }
+      ]
+    }
+  ]
+}

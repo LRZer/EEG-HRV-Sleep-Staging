@@ -1,0 +1,23 @@
+EEG-HRV Sleep Staging: research data archive / 研究数据归档
+
+MIT-BIH Polysomnographic Database 1.0.0: George Moody.
+Source: https://physionet.org/content/slpdb/1.0.0/
+License: Open Data Commons Attribution License v1.0 (ODC-By).
+Citation: Ichimaru Y, Moody GB. Development of the polysomnographic database on CD-ROM.
+Psychiatry and Clinical Neurosciences 53:175-177 (1999).
+
+ISRUC-Sleep Subgroup III: original database authors.
+Source: https://sleeptight.isr.uc.pt/?page_id=48
+Citation: Khalighi S, Sousa T, Santos JM, Nunes U. ISRUC-Sleep: A comprehensive public
+dataset for sleep researchers. Computer Methods and Programs in Biomedicine 124:180-192 (2016).
+The provider makes the dataset publicly available for research and requests citation.
+No separate permissive redistribution license is stated on the source page.
+Dataset rights and provider conditions remain with the original authors; this project's
+software license does not relicense datasets. Raw ISRUC files are acquired from the original
+provider, rather than redistributed here; the archive provides the prepared research inputs.
+
+Derived experimental inputs use single-channel EEG, ECG-derived time-domain HRV,
+five-class labels, per-epoch manifests, training/test rosters and past-only context indices.
+They are transformations of the named public research datasets, not newly collected subjects.
+Preserve citations, source links and original dataset conditions when using these materials.
+本项目软件许可不改变原始数据的权利及使用条件。使用数据及其衍生结果时请保留来源和引用。

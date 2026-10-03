@@ -1,0 +1,256 @@
+{
+  "source": "https://sleeptight.isr.uc.pt/?page_id=48",
+  "redistribution": "original-provider download; raw file hashes retained",
+  "files": [
+    {
+      "path": "1/1.rec",
+      "bytes": 155984120,
+      "sha256": "5c53f0c7c915f02f8d80683058eb2a8bdf143604ba8ec52573443efd29e06a58"
+    },
+    {
+      "path": "1/1_1.txt",
+      "bytes": 2862,
+      "sha256": "c0a9d175d843c81d8ffffa7074060c6ec94f49622973f73bf950adc234df6d78"
+    },
+    {
+      "path": "1/1_1.xlsx",
+      "bytes": 44288,
+      "sha256": "378bb848f536ca243d4f55465bd3240dbd4bebdc6dd733accf9a4c008ee5c944"
+    },
+    {
+      "path": "1/1_2.txt",
+      "bytes": 2862,
+      "sha256": "db64520d4ce5a21a7198c9dee3250c3cac27b7b447069aeaa66ba648f31924ea"
+    },
+    {
+      "path": "1/1_2.xlsx",
+      "bytes": 43029,
+      "sha256": "a5893b0895fd393292ec1b78ce04efd5bf9324ce9fd76dbcc7c1d96f5e06a083"
+    },
+    {
+      "path": "10/10.rec",
+      "bytes": 130151120,
+      "sha256": "3fe1f8ac44037d464c50699da84e13bd35ab930e1ad9f9cf64d6ac764c6bb5c3"
+    },
+    {
+      "path": "10/10_1.txt",
+      "bytes": 2388,
+      "sha256": "8f5146de7e627ab0e11888cc0fb2c8c1bc9668556c2a91f5ac5db3a5e1a56d39"
+    },
+    {
+      "path": "10/10_1.xlsx",
+      "bytes": 41256,
+      "sha256": "b8c216777a59aac3ee73548351989653d019679891c9734b15c161b99e445887"
+    },
+    {
+      "path": "10/10_2.txt",
+      "bytes": 2388,
+      "sha256": "8f5146de7e627ab0e11888cc0fb2c8c1bc9668556c2a91f5ac5db3a5e1a56d39"
+    },
+    {
+      "path": "10/10_2.xlsx",
+      "bytes": 38178,
+      "sha256": "882278571a5c73cb8f811b6824fb959236bf194134fc33f86db3ba84f3d59da0"
+    },
+    {
+      "path": "2/2.rec",
+      "bytes": 153858620,
+      "sha256": "66ff76bfa50af6aa36ea66d3ccbf4811b661e569d1f270e47537d6cab5adb8b3"
+    },
+    {
+      "path": "2/2_1.txt",
+      "bytes": 2823,
+      "sha256": "28d634ef4e183d0296957a402b770339e83f3b2b8aafc87135943541dce73e75"
+    },
+    {
+      "path": "2/2_1.xlsx",
+      "bytes": 43964,
+      "sha256": "ac321918759435329ef1941f3ae0af4eb3a4bc5f2ba21072a418a2d6864d798c"
+    },
+    {
+      "path": "2/2_2.txt",
+      "bytes": 2823,
+      "sha256": "3ff91e886f5391b5e44794cae04b1b672c4a19dfb9d52b5c65e8cdc91a7e3ff7"
+    },
+    {
+      "path": "2/2_2.xlsx",
+      "bytes": 42329,
+      "sha256": "a2cfc17e22a06f2003fa0f402800edfd87e5e5dc63c217d4a87919c133c4b919"
+    },
+    {
+      "path": "3/3.rec",
+      "bytes": 134729120,
+      "sha256": "8b195037d8310bb56f591812450ba73e82873bc17cf262a4b8d46e532608561f"
+    },
+    {
+      "path": "3/3_1.txt",
+      "bytes": 2472,
+      "sha256": "6e578966a86482b1055b2adf788ed933367f3f43971fbda36a72f24d9d695b15"
+    },
+    {
+      "path": "3/3_1.xlsx",
+      "bytes": 39596,
+      "sha256": "dfcd0e2ee5a1443a4692539e895e566eb80d3e8bee105500aae376c6fd37eadb"
+    },
+    {
+      "path": "3/3_2.txt",
+      "bytes": 2472,
+      "sha256": "0e2a60f3d1c23a3c561a551c2960057e579f3c19b2310d1310cddf1ebcb92892"
+    },
+    {
+      "path": "3/3_2.xlsx",
+      "bytes": 38005,
+      "sha256": "cfd58b87c6e3d8196fabb847f0f040aac6609655ddebeb22a165f8ea22152747"
+    },
+    {
+      "path": "4/4.rec",
+      "bytes": 129824120,
+      "sha256": "d0be04603009355b4d98f30e9145ec77e47cb4d325e6729090e06a6526144920"
+    },
+    {
+      "path": "4/4_1.txt",
+      "bytes": 2382,
+      "sha256": "1c1a8e90c605d0aae1d2242f985b0ceeeb5c91cc9abe98e2a4aa9f4d23493177"
+    },
+    {
+      "path": "4/4_1.xlsx",
+      "bytes": 38480,
+      "sha256": "48986d14c3f17ffc876f121b2455ef142886011eada3d42a966bfe87f20141fb"
+    },
+    {
+      "path": "4/4_2.txt",
+      "bytes": 2382,
+      "sha256": "577341f743b147a5fbdd4a9c63f9e7caaec1b2bbaf784d5248f2efa8f3815148"
+    },
+    {
+      "path": "4/4_2.xlsx",
+      "bytes": 36780,
+      "sha256": "d2adf048055ee96643556cc49916015843449a5484da2234a163178065411cf0"
+    },
+    {
+      "path": "5/5.rec",
+      "bytes": 154349120,
+      "sha256": "dad3509f677216e21bbfac6eea30eeb00f5d58efa485fc89db7415abe256f274"
+    },
+    {
+      "path": "5/5_1.txt",
+      "bytes": 2832,
+      "sha256": "153ae6509817d15e022344c0ab34338d22ff3d5710fe7a0ab6cdc970c72434b8"
+    },
+    {
+      "path": "5/5_1.xlsx",
+      "bytes": 43641,
+      "sha256": "3cadb7d5d02655c31cfa46ab89da21038489dbde33affa84b5afb890135e6843"
+    },
+    {
+      "path": "5/5_2.txt",
+      "bytes": 2832,
+      "sha256": "24f7630c688a4855698b7cd29fa627b0f46242149536e6a9a8920090f0bfa048"
+    },
+    {
+      "path": "5/5_2.xlsx",
+      "bytes": 41903,
+      "sha256": "7b667b831889ff400b545eecfc532e784c955407ae28d0961f33ce8de1688952"
+    },
+    {
+      "path": "6/6.rec",
+      "bytes": 139470620,
+      "sha256": "10082842c79e8f80a11ce6be8218fc92b735796a8fed7f5a1593c9a2d87ee883"
+    },
+    {
+      "path": "6/6_1.txt",
+      "bytes": 2559,
+      "sha256": "0220e34c9d84b4422eb623b4650d3378acd8a14f3a1a5f7238c8b940f34c813f"
+    },
+    {
+      "path": "6/6_1.xlsx",
+      "bytes": 41490,
+      "sha256": "48feba58b0446efcbb05253e25124267c8fea8fc933424e7dd9d6cb7622f8e5a"
+    },
+    {
+      "path": "6/6_2.txt",
+      "bytes": 2559,
+      "sha256": "16a05d6747a072e2a618ea81184c366a53d7a3e5c4327461cb8f89696d46f789"
+    },
+    {
+      "path": "6/6_2.xlsx",
+      "bytes": 42302,
+      "sha256": "24d690a3c3136d057bb4d8739ef377b03c04c4ff11685035e56031664e574cb3"
+    },
+    {
+      "path": "7/7.rec",
+      "bytes": 133094120,
+      "sha256": "a2010d7fe9ae4c890c24dab529e1a64d7094faa1b13afa72b5f51c34de5cd0a5"
+    },
+    {
+      "path": "7/7_1.txt",
+      "bytes": 2442,
+      "sha256": "101b9a8e378244a6748804d73f5430d991ee18450e8dcf5703693c813f30ebbb"
+    },
+    {
+      "path": "7/7_1.xlsx",
+      "bytes": 39168,
+      "sha256": "54a28faadc078ba8f52304d0dda35163281d777f5a0024888519c66fc6b3b064"
+    },
+    {
+      "path": "7/7_2.txt",
+      "bytes": 2442,
+      "sha256": "d9b1017caaf0d1d869ff80afc86f0b75589df519249cb4b30e9a23babd509894"
+    },
+    {
+      "path": "7/7_2.xlsx",
+      "bytes": 40164,
+      "sha256": "e02652760092e11f9f89e52082bd588f09374fc7b2f0b8c81d995f3fdd599b62"
+    },
+    {
+      "path": "8/8.rec",
+      "bytes": 163505120,
+      "sha256": "2e19d5396de0f9ad0b747e906464ca4f241a168149479d8cf2a527e11ba86744"
+    },
+    {
+      "path": "8/8_1.txt",
+      "bytes": 3000,
+      "sha256": "635fff727921173f563d4c884fd31a2455a4714d23f3d22f8c4adecf869655fd"
+    },
+    {
+      "path": "8/8_1.xlsx",
+      "bytes": 46208,
+      "sha256": "ab83a304a494465d2524c39b1982378349c68e7f211c3e89c08aded8930683b3"
+    },
+    {
+      "path": "8/8_2.txt",
+      "bytes": 3000,
+      "sha256": "635fff727921173f563d4c884fd31a2455a4714d23f3d22f8c4adecf869655fd"
+    },
+    {
+      "path": "8/8_2.xlsx",
+      "bytes": 47451,
+      "sha256": "23762e8a6fed4c064ce7e9f4c1e86d1d90a486ecf353f61437cf248aeca989ce"
+    },
+    {
+      "path": "9/9.rec",
+      "bytes": 158436620,
+      "sha256": "603f4419716510ae041a244b1f82d366c14e9277f98288491b5f103cffb9aa29"
+    },
+    {
+      "path": "9/9_1.txt",
+      "bytes": 2909,
+      "sha256": "dea996a534e1ec2166a84cb41cc8bc19fa2e013c0e1291d2ce61a23fd799c106"
+    },
+    {
+      "path": "9/9_1.xlsx",
+      "bytes": 44934,
+      "sha256": "001ebc9fbccdd753d598f24d03a6cdee1bd95adcff3b854c7485d0dd7ed58c4e"
+    },
+    {
+      "path": "9/9_2.txt",
+      "bytes": 2907,
+      "sha256": "e91165e8d18b1bb33d8769b9225dc19fcbddda6ba113830f702821dcf82e5552"
+    },
+    {
+      "path": "9/9_2.xlsx",
+      "bytes": 46469,
+      "sha256": "e40dd3940a26faa28e2d97e1ce5622d738cb72234da19b1a80f0fc87f6fe139c"
+    }
+  ]
+}

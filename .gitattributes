@@ -1,0 +1,9 @@
+# Frozen protocol hashes are calculated from exact bytes on every platform.
+**/protocol.json -text
+*.pt binary
+*.npz binary
+*.npy binary
+*.joblib binary
+*.png binary
+*.pdf binary
+*.gz binary

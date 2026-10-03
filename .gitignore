@@ -8,3 +8,7 @@ results/fusion_model.joblib
 results/reproduction/
 results/deep_learning/restored_predictions.csv
 *.partial
+downloads/
+results/reproduction-v2/
+results/restored_v2_predictions.csv
+results/v2/restoration_check.csv

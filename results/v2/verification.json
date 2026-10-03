@@ -1,0 +1,100 @@
+{
+  "protocol_sha256": "75eed49a8e3f3206f30813c4c6d89573f35f135baa2b2d1889a28f7dad03698c",
+  "runs": 21,
+  "training_epochs": 840,
+  "prediction_rows": 168504,
+  "recalculated_prediction_groups": 56,
+  "subject_isolation": true,
+  "EEG_only_unchanged_by_missing_HRV": true,
+  "missing_HRV_gates_exactly_zero": true,
+  "restored_A6_ensemble_labels_identical": true,
+  "restored_max_probability_difference": 0.0,
+  "syntax_and_document_links": true,
+  "cache_used_for_restoration": "F:\\CodexArtifacts\\eeg-hrv-v2\\reproduce-cache\\cache\\deep_learning",
+  "checkpoints": {
+    "A0_seed42.pt": {
+      "bytes": 1271264,
+      "sha256": "91592cfc873d6111ef55f4ac37531b4664d06d20263174c41794165b847e98f9"
+    },
+    "A0_seed123.pt": {
+      "bytes": 1271330,
+      "sha256": "182a9c35c427449e6c519572f8d91d715ce710a05c370b885a9dfd9aa090df4d"
+    },
+    "A0_seed2026.pt": {
+      "bytes": 1271396,
+      "sha256": "4fb94b4f6068ef7df5652b210f3435f53b87a48a35ebe787b50eacc03cc3f978"
+    },
+    "A1_seed42.pt": {
+      "bytes": 1275104,
+      "sha256": "9d055931fd5a73b1f3da5c4e623d836c7c4be246788c27cb27f68e8761fa44f9"
+    },
+    "A1_seed123.pt": {
+      "bytes": 1275170,
+      "sha256": "4d2fc53063cbb412751a0defb811e60753df1288c4b8f789d7f110b97f0dcd79"
+    },
+    "A1_seed2026.pt": {
+      "bytes": 1275236,
+      "sha256": "b6d91f3ae1181c4e31a7eb34bb7fa1e74305f5e5bb1749f7da4eacd7c8a636ad"
+    },
+    "A2_seed42.pt": {
+      "bytes": 678839,
+      "sha256": "41968d8b0f3b60ec2577da21a9cc80a6ebcffbabc28f4bc7a743cde1d1c0daf3"
+    },
+    "A2_seed123.pt": {
+      "bytes": 678882,
+      "sha256": "cc3ee9de9de2459d8524dabb23c61069bcdb587e8535969b1ea13256bdfa920f"
+    },
+    "A2_seed2026.pt": {
+      "bytes": 678925,
+      "sha256": "2d730293451be151cb2b3c152c7a68557cf221c3eb3deb113f42ee42de6fb43e"
+    },
+    "A3_seed42.pt": {
+      "bytes": 1409940,
+      "sha256": "a9ab35956b4d73b8ba839bfce10603a59acf3dc6e0dcc9d9e065aadc0270467b"
+    },
+    "A3_seed123.pt": {
+      "bytes": 1410018,
+      "sha256": "21c70539c3f6dc7888e7fd9e8a472804cc134fea202ba93f71a557f0a751fe7c"
+    },
+    "A3_seed2026.pt": {
+      "bytes": 1410096,
+      "sha256": "b4ffd18e65d8112cbdc3f50cfff242d9b1cdd6df297bb545218611633c5adc84"
+    },
+    "A4_seed42.pt": {
+      "bytes": 1410834,
+      "sha256": "d28f2a9094f78a674b78d5a1a8266ec37a0f6578db1647e834eee1d8d9c3f6b7"
+    },
+    "A4_seed123.pt": {
+      "bytes": 1410914,
+      "sha256": "fe9c9568a7f81a94a968232c8964936de22d1f6e582b350d35c59c1612634511"
+    },
+    "A4_seed2026.pt": {
+      "bytes": 1410994,
+      "sha256": "ad838bcf10de4f3f1f4cfad2c7c5e8f87c97cde125000f9baafccff1337446ad"
+    },
+    "A5_seed42.pt": {
+      "bytes": 1410834,
+      "sha256": "b578e6fc254e7c3641b8d781879b2e3d1214592ed51f7e89b56c9fc401855573"
+    },
+    "A5_seed123.pt": {
+      "bytes": 1410914,
+      "sha256": "6c00c1afb97795f82abac1f46aa3340f9efcb044291e9b031e8d977eec8b6333"
+    },
+    "A5_seed2026.pt": {
+      "bytes": 1410994,
+      "sha256": "b6a8692812c626b1f4bda1297fb73a9020d10bbb0602aee4301dc2fbc7747d80"
+    },
+    "A6_seed42.pt": {
+      "bytes": 1414674,
+      "sha256": "d7a46ee7ce8c7e35ac24aa9b53c65e0995f346d457e28e2e87ea0247cb1c6e7b"
+    },
+    "A6_seed123.pt": {
+      "bytes": 1414754,
+      "sha256": "bd393db5431bd5ac0ea8711e777454a8f19cd0315baa16d24e035cc857d3ab2a"
+    },
+    "A6_seed2026.pt": {
+      "bytes": 1414834,
+      "sha256": "e5f085b7d42ebaab069a26721aa33952183a39c3702a2a9bf2856b02a42a18cf"
+    }
+  }
+}

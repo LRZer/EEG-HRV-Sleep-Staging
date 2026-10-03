@@ -1,128 +1,21 @@
-# 基于 EEG-HRV 多模态融合的睡眠阶段识别研究
+# Project documentation / 项目文档
 
-## 1. 项目目标与当前进展
+## Current experiment / 当前实验
 
-项目研究如何从脑电与心脏活动识别睡眠阶段。把连续记录切成 30 秒片段，模型为每一片段输出 Wake（清醒）、N1（浅睡起始）、N2、N3（深睡）、REM（快速眼动睡眠）五类之一，并保存五类概率。
+- [English overview and results](README.md)
+- [中文概览与成绩](README.zh-CN.md)
+- [Complete methods / 完整方法](docs/METHODS_V2.md)
+- [Full English report](results/v2/report.en.md)
+- [完整中文实验报告](results/v2/report.zh-CN.md)
+- [Figure catalogue / 图表目录](docs/FIGURES.md)
+- [Reproduce all runs / 复现全部实验](docs/REPRODUCE_V2.md)
+- [Data, files and conditions / 数据、文件和来源](datasets/README.md)
 
-EEG 是脑电波形，ECG 是心电波形，HRV 是根据连续心跳间隔计算出的变化特征。HRV 由 ECG 推导，当前不是一个额外采集的原始信号。
+## Archived experiments / 历史实验
 
-已完成两个阶段：早期 MIT 单数据库随机森林特征融合基线；本轮 MIT + ISRUC 双数据库上的五种深度学习模型与随机森林对照。已具备数据下载校验、标签对齐、连续上下文构建、真实训练、受试者独立测试、指标图表、权重保存及恢复预测流程。
+- [Version 1 detailed project description / 第一轮详细项目说明](PROJECT.v1.md)
+- [Version 1: five deep models and RF on the mixed subject holdout](results/deep_learning/report.md)
+- [Original MIT-only grouped five-fold random forest baseline](docs/BASELINE.md)
 
-## 2. 数据、通道和标签
-
-| 数据库 | 受试者 | 记录 | 本轮有效 30 秒窗口 | 本轮输入 |
-|---|---:|---:|---:|---|
-| MIT-BIH Polysomnographic Database | 16 | 18 | 10,181 | 每条记录一个 EEG 通道 + ECG + 睡眠标注 |
-| ISRUC-Sleep Subgroup III | 10 | 10 | 8,589 | C4-A1 EEG + X2 ECG + 第一位专家标注 |
-| 合计 | 26 | 28 | 18,770 | 同步对齐后的 EEG / HRV |
-
-MIT 数据保留可用标注窗口，R&K 的 3/4 期合并为 N3。ISRUC 标签 0/1/2/3/5 映射为 Wake/N1/N2/N3/REM。标注缺失的窗口不作为训练样本，也不跨越这些缺口拼接连续输入。
-
-ISRUC 原始下载包括 50 个文件、1,454,295,671 字节，共 8,889 个标注窗口。实验按照提供方的噪声说明，去掉每条记录末尾 30 个窗口，共去掉 300 个；原始文件和第二位专家标注完整保留。X2 的 EDF transducer 标识为 `EKG_Channel`，准备程序读取前会检查，避免把其他辅助通道误认成心电。
-
-两套数据库的导联、人群和评分标准不同。MIT 的 EEG 导联随记录变化，ISRUC 固定 C4-A1；把标签名称对齐不意味着评分标准完全一致。实际每条记录的通道、采样率、窗口数量和质量信息见 `results/deep_learning/data_audit.json`。
-
-来源：[MIT 数据说明](https://physionet.org/content/slpdb/1.0.0/)、[ISRUC 作者下载页面](https://sleeptight.isr.uc.pt/?page_id=48)、[末尾噪声窗口说明](https://sleeptight.isr.uc.pt/?page_id=76)。
-
-## 3. 训练与测试分别是什么
-
-训练集：22 位受试者，15,761 个窗口，用于更新模型参数、统计类别权重，以及拟合缺失值填补和标准化。
-
-测试集：4 位受试者，3,009 个窗口。这 4 人是 MIT-slp02、MIT-slp60、ISRUC-III-04、ISRUC-III-05。其中 MIT-slp02 的 a/b 两条记录属于同一人，全部进入测试。
-
-不设验证集。受试者划分在读取测试成绩之前固定；参数、40 轮训练次数和保存最后一轮的规则也在测试前确定。五种网络全部训练完成后才统一评估测试集。不能根据这个测试集的分数反复选轮数、试参数后再把它当成最终独立测试。
-
-这是未见受试者测试；训练集已经包含两个数据库，因此不是未见数据库的外部测试。结果整体按照窗口统计，逐受试者与逐数据库结果另行列出。
-
-## 4. 数据处理与模型输入
-
-### EEG
-
-每个 30 秒窗口独立进行 0.3–35 Hz 带通滤波，统一到微伏，并重采样到 100 Hz。一个原始波形输入为 3,000 个采样点。独立滤波防止混入当前窗口结束之后的 EEG。
-
-构造两种表示：原始波形供 CNN 使用；短时傅里叶变换的对数功率频谱供分层 Transformer 使用，每窗为 29 个时间帧 × 89 个频率点。同时提取总功率、五频段相对功率和谱熵，共 7 项手工特征，用于随机森林对照。
-
-质量规则预先固定：窗口应有限值、原始 EEG 标准差至少 0.01 微伏、绝对振幅不超过 2,000 微伏。这是基本结构检查，不等同于完整的伪迹识别；本轮没有窗口被这两项振幅阈值排除。
-
-### ECG 与 HRV
-
-使用 SleepECG 检测 ECG 心跳，从 RR 间隔计算 26 项时域 HRV 特征，包括平均间隔、SDNN、RMSSD、心率统计等。有效 RR 区间为 0.3–2 秒。
-
-每个 HRV 窗口最长 5 分钟，截止当前 30 秒片段末尾。心跳检测本身在完整离线 ECG 上运行，本轮未验证实时检测的延迟。HRV 缺失值由训练集各特征中位数填补，之后按训练均值/标准差缩放。融合网络额外接收 26 个缺失标记，总共 52 维心脏分支输入。
-
-### 连续上下文
-
-序列模型读取同一记录内当前窗口和过去最多 4 个连续窗口，相当于最多 2.5 分钟 EEG 上下文；不足时左侧填零并添加掩码。不跨记录、不跨未知标签缺口。同一个目标的所有实际输入窗口都在目标窗口结束之前或同时结束。
-
-频谱标准化、EEG 幅度缩放、HRV 缺失填补与标准化全部只依据训练样本。测试数据不会更新这些统计，也不会反向传播。
-
-## 5. 五种深度学习模型
-
-| 模型 | 结构与目的 | 参数量 |
-|---|---|---:|
-| EEG CNN + Attention | 短/长卷积核提取单窗波形，通道重标定和窗口内注意力 | 111,581 |
-| 分层频谱 Transformer | 窗口内频谱 Transformer + 窗口间时序 Transformer | 309,029 |
-| EEG CNN + 时序 Transformer | CNN 编码每个波形窗口，再学习连续窗口关系 | 261,341 |
-| EEG-HRV 拼接 Transformer | EEG 与 HRV 编码拼接后进入时序 Transformer | 294,845 |
-| EEG-HRV Cross-Attention Transformer | EEG 作为 Query、HRV 作为 Key/Value，融合后进入时序 Transformer | 332,093 |
-
-隐藏维度 96，注意力 4 头，时序 Transformer 2 层，Dropout 0.2。单窗口注意力模型与分层频谱模型参考 AttnSleep / SleepTransformer 的结构思路，由项目独立实现，不能将结果写成原论文网络的完整复现。
-
-随机森林对照使用 7 项 EEG + 26 项 HRV 手工特征，400 棵树、最小叶节点样本数 5、类别平衡权重；和深度学习共用相同的训练/测试受试者与当前窗口标签。它是本轮用于比较的传统模型。
-
-## 6. 训练规则
-
-五种网络分别从头训练 40 轮，总共 200 轮。训练随机种子 42，批量 64，AdamW 学习率 0.0003，权重衰减 0.01，余弦学习率衰减，梯度裁剪 1.0。类别不均衡由训练类别频数的倒数构造加权交叉熵权重。
-
-波形训练时加入 0.9–1.1 倍幅度扰动和少量噪声；频谱训练时加入轻微扰动。数据增强生成训练变化，不增加独立受试者人数。GPU 训练采用混合精度；测试预测用 FP32。只保存第 40 轮作为正式模型，未进行早停或测试成绩选轮数。
-
-训练采用本机现有 Conda `pytorch` 环境及 RTX 4060 Laptop。数据准备与训练所用库版本分别记录在依赖文件和环境报告中，运行步骤见 [REPRODUCE.md](docs/REPRODUCE.md)。
-
-## 7. 本轮测试结果
-
-| 模型 | Accuracy | Macro-F1 | N1 F1 | REM F1 |
-|---|---:|---:|---:|---:|
-| 随机森林对照 | 63.48% | 0.5896 | 0.5286 | 0.3846 |
-| EEG CNN + Attention | 59.06% | 0.6008 | 0.4338 | 0.4220 |
-| 分层频谱 Transformer | **67.10%** | 0.6112 | **0.5699** | 0.3014 |
-| EEG CNN + 时序 Transformer | 61.22% | **0.6166** | 0.4375 | 0.4921 |
-| EEG-HRV 拼接 Transformer | 60.68% | 0.5935 | 0.3405 | **0.5000** |
-| EEG-HRV Cross-Attention Transformer | 59.45% | 0.5859 | 0.3847 | 0.4405 |
-
-Accuracy 是全部窗口中预测正确的比例；Macro-F1 是五类 F1 的等权平均，更重视小类。完整 precision、recall、F1、support、Kappa 和混淆矩阵见 `results/deep_learning/metrics.json`。
-
-分层频谱模型的整体 Accuracy 比本轮随机森林高 3.62 个百分点；连续波形模型的 Macro-F1 比本轮随机森林高 0.0269。不同指标最高的模型不同，不能仅凭整体 Accuracy 判断每类都改善。例如分层频谱 Transformer 的 REM F1 只有 0.3014。
-
-### 融合模型的数据库差异
-
-| 模型 | ISRUC 测试 Accuracy | MIT 测试 Accuracy |
-|---|---:|---:|
-| 随机森林 | 64.96% | 61.61% |
-| 分层频谱 Transformer | 65.85% | 68.67% |
-| EEG 时序 Transformer | 64.84% | 56.65% |
-| 拼接融合 | 67.10% | 52.59% |
-| Cross-Attention 融合 | 70.32% | 45.76% |
-
-融合在 ISRUC 的表现较好，但在 MIT 的两位测试受试者上较差，总体没有稳定优势。导联、人群、标签标准和 HRV 统计差异可能相关，目前未通过控制实验确认原因。这是下一轮研究问题，不能把局部 70.32% 写成整个项目的总体准确率。
-
-逐受试者 Macro-F1 固定按五类计算，某些人没有 N3 等阶段，缺失类计为 0；应结合各类 support 阅读这些小样本指标。单个人的窗口数量再多，也不等价于大量独立受试者。
-
-## 8. 已交付的可检查成果
-
-- 原始数据下载/认证/结构检查脚本，以及每条记录的数据审计。
-- 训练/测试名单、窗口标签与序列索引设计、固定参数文件。
-- 五种网络实现及权重；本轮随机森林对照权重；仅训练集拟合的预处理统计。
-- 200 轮训练日志、六模型逐窗测试类别与概率、逐人和逐库指标。
-- 模型对比、六模型混淆矩阵、训练曲线、测试记录睡眠分期时间图。
-- 受试者隔离、历史上下文边界、训练集预处理、带填充前向与梯度检查。
-- Cross-Attention 权重恢复验证：3,009 个预测类别一致，最大概率差为 0。
-
-## 9. 结论与下一步
-
-项目已经完成深度学习阶段的可复现探索性成果：脑电频谱和连续上下文模型在不同指标上超过同划分的传统对照，同时验证了多模态融合并非自动提升整体表现。
-
-当前限制为 4 位测试受试者、一个固定划分、一个训练种子；没有验证集用于选择泛化较好的轮数。旧 MIT 五折基线的 60.42% 属于历史实验，数据和划分不同，不能直接作为深度学习提升的参照。
-
-下一轮可围绕数据库差异、HRV 质量、融合权重和少数类识别制定新协议；若继续不设验证集，需要在新实验开始前固定方案并安排独立的最终评估数据。当前 4 人的成绩已经看过，不能继续反复调参后把他们当成全新的独立测试。尚未实现通用未标注文件输入、实时服务、模型部署。
-
-参考：[AttnSleep 作者代码](https://github.com/emadeldeen24/AttnSleep)、[SleepTransformer 作者代码](https://github.com/pquochuy/SleepTransformer)、[SleepECG](https://github.com/cbrnr/sleepecg)。历史基线见 [BASELINE.md](docs/BASELINE.md)。
+Historical outputs are preserved. Current results report exploratory reuse of the version-1 test subjects; differences in datasets and evaluation settings are stated explicitly.
+历史结果完整保留。本轮明确报告复用第一轮测试受试者的探索性质，不将不同数据与划分的成绩合并计算提升。

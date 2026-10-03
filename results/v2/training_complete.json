@@ -1,0 +1,28 @@
+{
+  "protocol_sha256": "75eed49a8e3f3206f30813c4c6d89573f35f135baa2b2d1889a28f7dad03698c",
+  "completed_runs": [
+    "A0_seed42",
+    "A0_seed123",
+    "A0_seed2026",
+    "A1_seed42",
+    "A1_seed123",
+    "A1_seed2026",
+    "A2_seed42",
+    "A2_seed123",
+    "A2_seed2026",
+    "A3_seed42",
+    "A3_seed123",
+    "A3_seed2026",
+    "A4_seed42",
+    "A4_seed123",
+    "A4_seed2026",
+    "A5_seed42",
+    "A5_seed123",
+    "A5_seed2026",
+    "A6_seed42",
+    "A6_seed123",
+    "A6_seed2026"
+  ],
+  "runs": 21,
+  "test_scored": false
+}
