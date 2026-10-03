@@ -1,0 +1,1 @@
+{"protocol_sha256": "e1fe4e1f4aa992aa0c4eeee6ffd8c30b13d6e4e7cf8551ff3983f4b26df393fa", "models": ["eeg_attention", "sleep_transformer", "eeg_sequence", "fusion_concat", "fusion_cross"], "epochs": 40, "smoke_only": false}

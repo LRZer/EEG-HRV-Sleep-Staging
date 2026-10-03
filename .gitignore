@@ -1,7 +1,10 @@
 __pycache__/
 *.pyc
 .venv/
+.venv-data/
 data/
 cache/
 results/fusion_model.joblib
-
+results/reproduction/
+results/deep_learning/restored_predictions.csv
+*.partial

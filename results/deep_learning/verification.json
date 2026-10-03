@@ -1,0 +1,12 @@
+{
+  "windows": 3009,
+  "labels_identical": true,
+  "maximum_probability_difference": 0.0,
+  "checks": [
+    "22/4 subject isolation",
+    "past-only contiguous context",
+    "training-only preprocessing",
+    "finite padded model gradients",
+    "saved checkpoint prediction restoration"
+  ]
+}

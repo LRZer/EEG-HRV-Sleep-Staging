@@ -1,0 +1,1995 @@
+{
+  "dataset": "ISRUC-Sleep Subgroup III",
+  "source_page": "https://sleeptight.isr.uc.pt/?page_id=48",
+  "source_folder": "https://mega.nz/folder/hMIDEBBJ#jzU5WOF7V5fQCgykEkOptA",
+  "destination": "data/isrucIII",
+  "expected_files": 50,
+  "expected_bytes": 1454295671,
+  "status": "complete",
+  "files": [
+    {
+      "path": "1/1.rec",
+      "bytes": 155984120,
+      "sha256": "5c53f0c7c915f02f8d80683058eb2a8bdf143604ba8ec52573443efd29e06a58",
+      "source_node": "BM413QDC",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "1/1_1.txt",
+      "bytes": 2862,
+      "sha256": "c0a9d175d843c81d8ffffa7074060c6ec94f49622973f73bf950adc234df6d78",
+      "source_node": "MYxVECBa",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "1/1_1.xlsx",
+      "bytes": 44288,
+      "sha256": "378bb848f536ca243d4f55465bd3240dbd4bebdc6dd733accf9a4c008ee5c944",
+      "source_node": "xVxzgaYC",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "1/1_2.txt",
+      "bytes": 2862,
+      "sha256": "db64520d4ce5a21a7198c9dee3250c3cac27b7b447069aeaa66ba648f31924ea",
+      "source_node": "sM5H3C6D",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "1/1_2.xlsx",
+      "bytes": 43029,
+      "sha256": "a5893b0895fd393292ec1b78ce04efd5bf9324ce9fd76dbcc7c1d96f5e06a083",
+      "source_node": "YB5nHaTT",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "10/10.rec",
+      "bytes": 130151120,
+      "sha256": "3fe1f8ac44037d464c50699da84e13bd35ab930e1ad9f9cf64d6ac764c6bb5c3",
+      "source_node": "wFhHAarR",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "10/10_1.txt",
+      "bytes": 2388,
+      "sha256": "8f5146de7e627ab0e11888cc0fb2c8c1bc9668556c2a91f5ac5db3a5e1a56d39",
+      "source_node": "8cxz1CAD",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "10/10_1.xlsx",
+      "bytes": 41256,
+      "sha256": "b8c216777a59aac3ee73548351989653d019679891c9734b15c161b99e445887",
+      "source_node": "hYxFQS7B",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "10/10_2.txt",
+      "bytes": 2388,
+      "sha256": "8f5146de7e627ab0e11888cc0fb2c8c1bc9668556c2a91f5ac5db3a5e1a56d39",
+      "source_node": "QIwX3SIJ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "10/10_2.xlsx",
+      "bytes": 38178,
+      "sha256": "882278571a5c73cb8f811b6824fb959236bf194134fc33f86db3ba84f3d59da0",
+      "source_node": "VNx1QAzA",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "2/2.rec",
+      "bytes": 153858620,
+      "sha256": "66ff76bfa50af6aa36ea66d3ccbf4811b661e569d1f270e47537d6cab5adb8b3",
+      "source_node": "kA4R2QIQ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "2/2_1.txt",
+      "bytes": 2823,
+      "sha256": "28d634ef4e183d0296957a402b770339e83f3b2b8aafc87135943541dce73e75",
+      "source_node": "UQ5nxAwL",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "2/2_1.xlsx",
+      "bytes": 43964,
+      "sha256": "ac321918759435329ef1941f3ae0af4eb3a4bc5f2ba21072a418a2d6864d798c",
+      "source_node": "wMplWQZC",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "2/2_2.txt",
+      "bytes": 2823,
+      "sha256": "3ff91e886f5391b5e44794cae04b1b672c4a19dfb9d52b5c65e8cdc91a7e3ff7",
+      "source_node": "5Rp1RC5S",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "2/2_2.xlsx",
+      "bytes": 42329,
+      "sha256": "a2cfc17e22a06f2003fa0f402800edfd87e5e5dc63c217d4a87919c133c4b919",
+      "source_node": "cd5BnARC",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "3/3.rec",
+      "bytes": 134729120,
+      "sha256": "8b195037d8310bb56f591812450ba73e82873bc17cf262a4b8d46e532608561f",
+      "source_node": "ZNhXVSbZ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "3/3_1.txt",
+      "bytes": 2472,
+      "sha256": "6e578966a86482b1055b2adf788ed933367f3f43971fbda36a72f24d9d695b15",
+      "source_node": "9J4DwY6I",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "3/3_1.xlsx",
+      "bytes": 39596,
+      "sha256": "dfcd0e2ee5a1443a4692539e895e566eb80d3e8bee105500aae376c6fd37eadb",
+      "source_node": "QIhh1Kpb",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "3/3_2.txt",
+      "bytes": 2472,
+      "sha256": "0e2a60f3d1c23a3c561a551c2960057e579f3c19b2310d1310cddf1ebcb92892",
+      "source_node": "MEwlCQ5C",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "3/3_2.xlsx",
+      "bytes": 38005,
+      "sha256": "cfd58b87c6e3d8196fabb847f0f040aac6609655ddebeb22a165f8ea22152747",
+      "source_node": "gJoxBAKb",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "4/4.rec",
+      "bytes": 129824120,
+      "sha256": "d0be04603009355b4d98f30e9145ec77e47cb4d325e6729090e06a6526144920",
+      "source_node": "9VgT3aZI",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "4/4_1.txt",
+      "bytes": 2382,
+      "sha256": "1c1a8e90c605d0aae1d2242f985b0ceeeb5c91cc9abe98e2a4aa9f4d23493177",
+      "source_node": "EQ4HiYqA",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "4/4_1.xlsx",
+      "bytes": 38480,
+      "sha256": "48986d14c3f17ffc876f121b2455ef142886011eada3d42a966bfe87f20141fb",
+      "source_node": "xJ4n3aYQ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "4/4_2.txt",
+      "bytes": 2382,
+      "sha256": "577341f743b147a5fbdd4a9c63f9e7caaec1b2bbaf784d5248f2efa8f3815148",
+      "source_node": "ZQ5FzAib",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "4/4_2.xlsx",
+      "bytes": 36780,
+      "sha256": "d2adf048055ee96643556cc49916015843449a5484da2234a163178065411cf0",
+      "source_node": "RZgHCaqJ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "5/5.rec",
+      "bytes": 154349120,
+      "sha256": "dad3509f677216e21bbfac6eea30eeb00f5d58efa485fc89db7415abe256f274",
+      "source_node": "pAoz2CAB",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "5/5_1.txt",
+      "bytes": 2832,
+      "sha256": "153ae6509817d15e022344c0ab34338d22ff3d5710fe7a0ab6cdc970c72434b8",
+      "source_node": "VQwjhYLR",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "5/5_1.xlsx",
+      "bytes": 43641,
+      "sha256": "3cadb7d5d02655c31cfa46ab89da21038489dbde33affa84b5afb890135e6843",
+      "source_node": "AJpDmSIK",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "5/5_2.txt",
+      "bytes": 2832,
+      "sha256": "24f7630c688a4855698b7cd29fa627b0f46242149536e6a9a8920090f0bfa048",
+      "source_node": "5R5hkY7R",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "5/5_2.xlsx",
+      "bytes": 41903,
+      "sha256": "7b667b831889ff400b545eecfc532e784c955407ae28d0961f33ce8de1688952",
+      "source_node": "YJpxBQyD",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "6/6.rec",
+      "bytes": 139470620,
+      "sha256": "10082842c79e8f80a11ce6be8218fc92b735796a8fed7f5a1593c9a2d87ee883",
+      "source_node": "RZwDQSJY",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "6/6_1.txt",
+      "bytes": 2559,
+      "sha256": "0220e34c9d84b4422eb623b4650d3378acd8a14f3a1a5f7238c8b940f34c813f",
+      "source_node": "sMxDmChB",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "6/6_1.xlsx",
+      "bytes": 41490,
+      "sha256": "48feba58b0446efcbb05253e25124267c8fea8fc933424e7dd9d6cb7622f8e5a",
+      "source_node": "EZ5XiIII",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "6/6_2.txt",
+      "bytes": 2559,
+      "sha256": "16a05d6747a072e2a618ea81184c366a53d7a3e5c4327461cb8f89696d46f789",
+      "source_node": "AMhDjaZA",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "6/6_2.xlsx",
+      "bytes": 42302,
+      "sha256": "24d690a3c3136d057bb4d8739ef377b03c04c4ff11685035e56031664e574cb3",
+      "source_node": "ZJhjVQgK",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "7/7.rec",
+      "bytes": 133094120,
+      "sha256": "a2010d7fe9ae4c890c24dab529e1a64d7094faa1b13afa72b5f51c34de5cd0a5",
+      "source_node": "pVwRUaZK",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "7/7_1.txt",
+      "bytes": 2442,
+      "sha256": "101b9a8e378244a6748804d73f5430d991ee18450e8dcf5703693c813f30ebbb",
+      "source_node": "UMwnkSaT",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "7/7_1.xlsx",
+      "bytes": 39168,
+      "sha256": "54a28faadc078ba8f52304d0dda35163281d777f5a0024888519c66fc6b3b064",
+      "source_node": "NRoDnCzD",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "7/7_2.txt",
+      "bytes": 2442,
+      "sha256": "d9b1017caaf0d1d869ff80afc86f0b75589df519249cb4b30e9a23babd509894",
+      "source_node": "ZUw3HAzQ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "7/7_2.xlsx",
+      "bytes": 40164,
+      "sha256": "e02652760092e11f9f89e52082bd588f09374fc7b2f0b8c81d995f3fdd599b62",
+      "source_node": "gFxzQQ7b",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "8/8.rec",
+      "bytes": 163505120,
+      "sha256": "2e19d5396de0f9ad0b747e906464ca4f241a168149479d8cf2a527e11ba86744",
+      "source_node": "sEgVAIiQ",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "8/8_1.txt",
+      "bytes": 3000,
+      "sha256": "635fff727921173f563d4c884fd31a2455a4714d23f3d22f8c4adecf869655fd",
+      "source_node": "UZwhwIrB",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "8/8_1.xlsx",
+      "bytes": 46208,
+      "sha256": "ab83a304a494465d2524c39b1982378349c68e7f211c3e89c08aded8930683b3",
+      "source_node": "IZgXBSpT",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "8/8_2.txt",
+      "bytes": 3000,
+      "sha256": "635fff727921173f563d4c884fd31a2455a4714d23f3d22f8c4adecf869655fd",
+      "source_node": "AZxTBK5A",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "8/8_2.xlsx",
+      "bytes": 47451,
+      "sha256": "23762e8a6fed4c064ce7e9f4c1e86d1d90a486ecf353f61437cf248aeca989ce",
+      "source_node": "NYgTDYqT",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "9/9.rec",
+      "bytes": 158436620,
+      "sha256": "603f4419716510ae041a244b1f82d366c14e9277f98288491b5f103cffb9aa29",
+      "source_node": "0QgD1CaT",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "9/9_1.txt",
+      "bytes": 2909,
+      "sha256": "dea996a534e1ec2166a84cb41cc8bc19fa2e013c0e1291d2ce61a23fd799c106",
+      "source_node": "AIg3WQya",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "9/9_1.xlsx",
+      "bytes": 44934,
+      "sha256": "001ebc9fbccdd753d598f24d03a6cdee1bd95adcff3b854c7485d0dd7ed58c4e",
+      "source_node": "QRxDXQoI",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "9/9_2.txt",
+      "bytes": 2907,
+      "sha256": "e91165e8d18b1bb33d8769b9225dc19fcbddda6ba113830f702821dcf82e5552",
+      "source_node": "8Z5xwSYL",
+      "mega_mac_verified": true
+    },
+    {
+      "path": "9/9_2.xlsx",
+      "bytes": 46469,
+      "sha256": "e40dd3940a26faa28e2d97e1ce5622d738cb72234da19b1a80f0fc87f6fe139c",
+      "source_node": "8JpTBYRZ",
+      "mega_mac_verified": true
+    }
+  ],
+  "errors": [],
+  "inspection": {
+    "subjects": 10,
+    "epochs_30_seconds": 8889,
+    "hours": 74.075,
+    "scorer1_stage_counts": {
+      "Wake": 1817,
+      "N1": 1248,
+      "N2": 2678,
+      "N3": 2035,
+      "REM": 1111
+    },
+    "scorer_agreement": 0.8836764540443245,
+    "all_waveform_sizes_verified": true,
+    "all_annotations_aligned": true,
+    "all_xlsx_integrity_verified": true,
+    "original_files_modified": false,
+    "original_epochs": 8889,
+    "official_extracted_channels_note": "The author's pre-extracted channel release omits the last 30 epochs per subject due to noise; this download preserves the original REC files and all 8889 annotations.",
+    "extracted_channels_source_page": "https://sleeptight.isr.uc.pt/?page_id=76",
+    "auxiliary_channel_mapping": "X2 is ECG: its EDF transducer identifies EKG_Channel; checked by deep_learning.prepare before HRV extraction.",
+    "subject_details": [
+      {
+        "subject": "ISRUC-III-01",
+        "folder": "1",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 28620.0,
+        "data_records": 14310,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 954,
+        "scorer1_stage_counts": {
+          "Wake": 165,
+          "N1": 119,
+          "N2": 373,
+          "N3": 178,
+          "REM": 119
+        },
+        "scorer2_stage_counts": {
+          "Wake": 147,
+          "N1": 110,
+          "N2": 392,
+          "N3": 190,
+          "REM": 115
+        },
+        "scorer_agreement": 0.8773584905660378,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-02",
+        "folder": "2",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 28230.0,
+        "data_records": 14115,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 941,
+        "scorer1_stage_counts": {
+          "Wake": 115,
+          "N2": 323,
+          "N1": 144,
+          "N3": 197,
+          "REM": 162
+        },
+        "scorer2_stage_counts": {
+          "Wake": 88,
+          "N1": 106,
+          "N2": 322,
+          "N3": 243,
+          "REM": 182
+        },
+        "scorer_agreement": 0.8012752391073327,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-03",
+        "folder": "3",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 24720.0,
+        "data_records": 12360,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 824,
+        "scorer1_stage_counts": {
+          "Wake": 89,
+          "N1": 65,
+          "N2": 250,
+          "N3": 317,
+          "REM": 103
+        },
+        "scorer2_stage_counts": {
+          "Wake": 82,
+          "N1": 73,
+          "N2": 263,
+          "N3": 288,
+          "REM": 118
+        },
+        "scorer_agreement": 0.8689320388349514,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-04",
+        "folder": "4",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 23820.0,
+        "data_records": 11910,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 794,
+        "scorer1_stage_counts": {
+          "Wake": 174,
+          "N1": 137,
+          "N2": 234,
+          "N3": 159,
+          "REM": 90
+        },
+        "scorer2_stage_counts": {
+          "Wake": 157,
+          "N1": 134,
+          "N2": 218,
+          "N3": 158,
+          "REM": 127
+        },
+        "scorer_agreement": 0.8035264483627204,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-05",
+        "folder": "5",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 28320.0,
+        "data_records": 14160,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 944,
+        "scorer1_stage_counts": {
+          "Wake": 302,
+          "N1": 72,
+          "N2": 294,
+          "N3": 195,
+          "REM": 81
+        },
+        "scorer2_stage_counts": {
+          "Wake": 284,
+          "N1": 107,
+          "N2": 311,
+          "N3": 145,
+          "REM": 97
+        },
+        "scorer_agreement": 0.8411016949152542,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-06",
+        "folder": "6",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 25590.0,
+        "data_records": 12795,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 853,
+        "scorer1_stage_counts": {
+          "Wake": 78,
+          "N1": 136,
+          "N2": 296,
+          "N3": 247,
+          "REM": 96
+        },
+        "scorer2_stage_counts": {
+          "Wake": 72,
+          "N1": 69,
+          "N2": 339,
+          "N3": 236,
+          "REM": 137
+        },
+        "scorer_agreement": 0.8030480656506448,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-07",
+        "folder": "7",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 24420.0,
+        "data_records": 12210,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 814,
+        "scorer1_stage_counts": {
+          "Wake": 222,
+          "N1": 68,
+          "N2": 161,
+          "N3": 262,
+          "REM": 101
+        },
+        "scorer2_stage_counts": {
+          "Wake": 200,
+          "N2": 258,
+          "N1": 17,
+          "N3": 236,
+          "REM": 103
+        },
+        "scorer_agreement": 0.8181818181818182,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-08",
+        "folder": "8",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 30000.0,
+        "data_records": 15000,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 1000,
+        "scorer1_stage_counts": {
+          "Wake": 376,
+          "N1": 119,
+          "N2": 201,
+          "N3": 143,
+          "REM": 161
+        },
+        "scorer2_stage_counts": {
+          "Wake": 376,
+          "N1": 119,
+          "N2": 201,
+          "N3": 143,
+          "REM": 161
+        },
+        "scorer_agreement": 1.0,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-09",
+        "folder": "9",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 29070.0,
+        "data_records": 14535,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 969,
+        "scorer1_stage_counts": {
+          "Wake": 149,
+          "N1": 167,
+          "N2": 365,
+          "N3": 225,
+          "REM": 63
+        },
+        "scorer2_stage_counts": {
+          "Wake": 149,
+          "N1": 167,
+          "N2": 365,
+          "N3": 225,
+          "REM": 63
+        },
+        "scorer_agreement": 1.0,
+        "annotations_aligned": true
+      },
+      {
+        "subject": "ISRUC-III-10",
+        "folder": "10",
+        "format": "EDF-compatible .rec",
+        "duration_seconds": 23880.0,
+        "data_records": 11940,
+        "record_seconds": 2.0,
+        "channels": [
+          {
+            "label": "LOC-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "ROC-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EOG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C3-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O1-A2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "F4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "C4-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "O2-A1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EEG2_Channel",
+            "prefilter": "High Cut:35 Hz,Low Cut:0.3 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X1",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Chin_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X2",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "EKG_Channel",
+            "prefilter": "Notch:50 Hz"
+          },
+          {
+            "label": "X3",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X4",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Leg2_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X5",
+            "unit": "uV",
+            "sample_rate_hz": 200.0,
+            "transducer": "Snore_Channel",
+            "prefilter": "High Cut:70 Hz,Low Cut:10 Hz,Notch:50 Hz"
+          },
+          {
+            "label": "X6",
+            "unit": "uV",
+            "sample_rate_hz": 12.5,
+            "transducer": "Flow_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC3",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Flow2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X7",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "X8",
+            "unit": "uV",
+            "sample_rate_hz": 25.0,
+            "transducer": "Effort2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "SaO2",
+            "unit": "%",
+            "sample_rate_hz": 12.5,
+            "transducer": "SaO2_Channel",
+            "prefilter": ""
+          },
+          {
+            "label": "DC8",
+            "unit": "",
+            "sample_rate_hz": 25.0,
+            "transducer": "BPOS_Channel",
+            "prefilter": ""
+          }
+        ],
+        "structural_size_verified": true,
+        "epochs_30_seconds": 796,
+        "scorer1_stage_counts": {
+          "Wake": 147,
+          "N1": 221,
+          "N2": 181,
+          "N3": 112,
+          "REM": 135
+        },
+        "scorer2_stage_counts": {
+          "Wake": 147,
+          "N1": 221,
+          "N2": 181,
+          "N3": 112,
+          "REM": 135
+        },
+        "scorer_agreement": 1.0,
+        "annotations_aligned": true
+      }
+    ]
+  }
+}
