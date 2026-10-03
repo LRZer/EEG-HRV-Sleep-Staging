@@ -37,6 +37,8 @@ Protocol SHA-256: `75eed49a8e3f3206f30813c4c6d89573f35f135baa2b2d1889a28f7dad036
 A4 相对 A0，REM F1 为 0.3688／0.2521，N1 F1 为 0.4263／0.5740；不同阶段的变化方向不同。
 完全缺失 HRV 时，A5 相对 A4 的平均 Accuracy 差值为 +6.85 个百分点，Macro-F1 差值为 +0.0739。这是本轮均值对比，未作人群显著性结论。
 
+A4−A3 同时更换残差融合与质量约束，不能单独证明质量因子的贡献。特征实现条件及错误案例见配套技术文档。
+
 ## 分阶段指标
 
 | ID | Stage | Precision mean | Recall mean | F1 mean | F1 SD | Support |

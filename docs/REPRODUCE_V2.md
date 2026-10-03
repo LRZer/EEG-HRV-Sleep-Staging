@@ -15,6 +15,7 @@ python -m pip install -r requirements-deep-learning.txt
 ```powershell
 conda activate pytorch
 python scripts/download_release_data.py --kind prepared
+python -m experiments.v2.predict --variant A1 --seed ensemble --output results/restored_A1_predictions.csv
 python -m experiments.v2.predict --variant A6 --seed ensemble --output results/restored_v2_predictions.csv
 python -m experiments.v2.verify
 ```
@@ -85,3 +86,19 @@ MIT 也可通过原有 `main.py prepare` 下载。质量准备程序仅补齐小
 | `verification.json` | Preserved-artifact and restoration checks / 产物及恢复检查 |
 
 See [methods](METHODS_V2.md) for interpretation and [datasets notice](../datasets/DATA_NOTICE.txt) for attribution. Software licensing does not relicense datasets or third-party dependencies.
+
+## 5. Rebuild documentation / 重新生成文档
+
+Root README files are rendered from maintained bilingual templates and saved score CSVs. Technical figures use preserved inputs and predictions; they do not retrain or rescore models. Chinese diagrams require Microsoft YaHei, Noto Sans CJK SC or SimHei. The ready-data release supplies the signal-example cache.
+
+README 从中英文模板和保存的指标生成；技术图仅使用现有输入／预测，不训练或重新评分。中文图需要微软雅黑、Noto Sans CJK SC 或黑体。下载现成输入后即可生成真实信号示例。
+
+```powershell
+python -m experiments.v2.documentation
+python -m experiments.v2.technical_figures
+python -m experiments.v2.reporting
+```
+
+Templates: `docs/templates/README*.md`; technical figures: `docs/figures/` (6 topics × 2 languages × PNG/SVG/PDF); derived breakdown and case tables: `docs/tables/`. Template links are relative to the rendered root README, not the template directory. Keep experimental protocols and checkpoints unchanged when updating documentation.
+
+模板在 `docs/templates/`，链接以生成后的仓库根目录为准；技术图提供六个主题的双语 PNG／SVG／PDF。案例与分解表位于 `docs/tables/`。文档修改应保留原有协议及模型权重。

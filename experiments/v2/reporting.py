@@ -10,6 +10,29 @@ from .figures import COLORS,LABELS,STAGES
 
 PROJECT=Path(__file__).resolve().parents[2]
 
+READING={
+    "architecture":("Overview of A6; detailed tensor shapes and A1 comparison are in the technical diagrams below.","A6 的模块概览；详细尺寸与 A1 对照见下方技术图。"),
+    "data_overview":("Read subject counts separately from epoch counts; windows from one person are correlated.","区分人数与窗口数；同一人的相邻窗口不是独立受试者。"),
+    "ablation_results":("Points are individual seeds; bars/error bars summarize means/sample SD, not ensembles or confidence intervals.","点为单个种子；条形和误差线为均值／样本标准差，不是集成或人群置信区间。"),
+    "training_curves":("Training loss and training accuracy only; no validation curve or test-guided checkpoint selection.","只有训练损失和训练准确率；无验证曲线或按测试成绩选择权重。"),
+    "dataset_results":("Both sources occur in training; these are source-specific held-out subjects, not external source validation.","两个库都参与训练；这是各库留出受试者成绩，不是外部跨库验证。"),
+    "per_class_f1":("Read F1 alongside support; a change in REM alone does not establish overall improvement.","结合支持量阅读 F1；仅 REM 改善不等于整体提高。"),
+    "confusion_matrices":("Rows are expert stages, columns predictions; off-diagonal cells show errors. These use probability ensembles.","行为专家阶段、列为预测；离对角线是错误去向。此图使用概率平均集成。"),
+    "missing_hrv_robustness":("The missing condition removes all HRV; compare the same variant across conditions, then compare dropout variants.","缺失条件移除全部 HRV；先比较同一模型两种条件，再比较有／无模态丢弃。"),
+    "subject_results":("Pooled scores are not an unweighted average of people. Fixed-five-class F1 assigns zero to absent stages.","窗口汇总不是受试者简单平均；逐人固定五类 F1 对不存在阶段计 0。"),
+    "gate_analysis":("Effective scalar weights describe model behavior, not physiological causality or validated signal quality.","有效标量权重描述模型行为，不证明生理因果或经过验证的信号质量。"),
+    "sleep_timelines":("All five test records are shown. Expert labels are references; trace disagreements identify temporal errors.","展示全部五条测试记录；专家标签是参考，曲线偏离标出错误发生的时间。"),
+    "ecg_review":("Display-normalized fixed training segments; beat markers are detector outputs, not independent annotations.","固定训练片段仅作显示标准化；心跳标记是检测输出，不是独立专家标注。"),
+    "ecg_detection":("MIT beat matching at 150 ms; truncated axes are labeled. Beat F1 is separate from sleep-stage F1.","MIT 逐拍匹配容差 150 ms，截断坐标已注明；心跳 F1 与睡眠阶段 F1 不同。")}
+
+TECHNICAL={
+    "data_pipeline":("Signals to predictions","信号到预测","Follow EEG, ECG and expert labels to aligned inputs; labels remain targets and scaling is training-only.","按 EEG、ECG 和专家标签追踪至对齐输入；标签是目标，预处理统计仅由训练集拟合。"),
+    "model_architecture":("A1 and A6 layer structure","A1 与 A6 分层结构","Follow the dimensions from one spectrum to one epoch vector, then to the current-stage output.","从频谱尺寸读到窗口向量，再读到当前阶段输出。"),
+    "gated_fusion":("Residual gate and fallback","残差门控与回退","The EEG path is retained; q1/q2 bound one cardiac weight per epoch.","保留 EEG 主路径，q1／q2 约束每窗口一个心脏权重。"),
+    "time_alignment":("EEG context and nested HRV histories","EEG 上下文与嵌套 HRV 历史","5/15 EEG epochs cover 2.5/7.5 min; their RR-endpoint histories jointly cover 7/12 min.","5／15 个 EEG 窗口覆盖 2.5／7.5 分钟，RR 终点历史联合覆盖 7／12 分钟。"),
+    "signal_walkthrough":("Actual signal representations","真实信号表示","EEG/spectrum are one training epoch; ECG/RR are a separate training example with explicit provenance.","EEG／频谱为同一训练窗口；ECG／RR 为另一个注明来源的训练片段。"),
+    "prediction_cases":("Fixed probability examples","固定概率案例","First sorted example per outcome category, not confidence-selected or representative of population frequency.","每类取排序后的首例，不按置信度选取，也不代表总体频率。")}
+
 
 def reports(results):
     generate(results)
@@ -65,6 +88,8 @@ def reports(results):
              f"A4 versus A0: REM F1 {stage_means['A4','REM']:.4f} versus {stage_means['A0','REM']:.4f}, but N1 F1 {stage_means['A4','N1']:.4f} versus {stage_means['A0','N1']:.4f}; stage-specific changes differ in direction."),
             (f"完全缺失 HRV 时，A5 相对 A4 的平均 Accuracy 差值为 {(missing.loc['A5','accuracy_mean']-missing.loc['A4','accuracy_mean'])*100:+.2f} 个百分点，Macro-F1 差值为 {missing.loc['A5','macro_f1_mean']-missing.loc['A4','macro_f1_mean']:+.4f}。这是本轮均值对比，未作人群显著性结论。" if cn else
              f"With HRV unavailable, A5 versus A4 changes mean Accuracy by {(missing.loc['A5','accuracy_mean']-missing.loc['A4','accuracy_mean'])*100:+.2f} pp and Macro-F1 by {missing.loc['A5','macro_f1_mean']-missing.loc['A4','macro_f1_mean']:+.4f}. These are observed mean differences, without a population-significance claim.")]
+        lines += ["", "A4−A3 同时更换残差融合与质量约束，不能单独证明质量因子的贡献。特征实现条件及错误案例见配套技术文档。" if cn else
+                  "A4−A3 changes residual fusion and quality constraints together, so quality-factor benefit is not isolated. Companion technical documents describe feature implementation conditions and error cases."]
         lines += ["","## 分阶段指标" if cn else "## Per-stage metrics","",
             "| ID | Stage | Precision mean | Recall mean | F1 mean | F1 SD | Support |","|---|---|---:|---:|---:|---:|---:|"]
         selected=per_class[(per_class.condition=="normal")&(per_class.seed!="ensemble")]
@@ -110,7 +135,15 @@ def reports(results):
         "Sources: `python -m experiments.v2.figures`. Score bars use three individual seeds; confusion matrices and timelines explicitly use equal-probability ensembles.",""]
     for name,(en,cn) in CAPTIONS.items():
         gallery += [f"## {en} / {cn}","",f"[PNG](../results/v2/figures/{name}.png) · [SVG](../results/v2/figures/{name}.svg) · [PDF](../results/v2/figures/{name}.pdf)","",
-                    f"![{en}](../results/v2/figures/{name}.png)",""]
+                    f"![{en}](../results/v2/figures/{name}.png)","",f"{READING[name][0]} / {READING[name][1]}",""]
+    gallery += ["# Technical diagrams / 技术说明图","",
+                "Generated with `python -m experiments.v2.technical_figures`; each topic has English and Chinese PNG/SVG/PDF. Preserved inputs and outputs are used without retraining. / 六个主题均提供中英文三种格式，使用既有输入与预测，不进行新训练。",""]
+    for name,(en,cn,reading_en,reading_cn) in TECHNICAL.items():
+        gallery += [f"## {en} / {cn}","",f"{reading_en} / {reading_cn}",""]
+        for lang in ["en","zh-CN"]:
+            gallery += [f"**{lang}**: [PNG](figures/{name}.{lang}.png) · [SVG](figures/{name}.{lang}.svg) · [PDF](figures/{name}.{lang}.pdf)","",
+                        f"![{en} / {cn}](figures/{name}.{lang}.png)",""]
+    gallery += ["[Signal provenance / 信号示例来源](figures/provenance.json) · [Fixed case data / 固定案例数据](tables/prediction_cases.csv) · [Numeric breakdown / 数值分解](tables/result_breakdown.md)",""]
     write(PROJECT/"docs"/"FIGURES.md","\n".join(gallery))
     manifest=json.loads((PROJECT/"datasets"/"release_assets.json").read_text())
     guide=["# Research data / 研究数据","",f"[Release v2.0.0]({RELEASE})","",
@@ -133,6 +166,10 @@ def reports(results):
 - [English overview and results](README.md)
 - [中文概览与成绩](README.zh-CN.md)
 - [Complete methods / 完整方法](docs/METHODS_V2.md)
+- [Model architecture](docs/ARCHITECTURE.en.md) · [模型架构](docs/ARCHITECTURE.zh-CN.md)
+- [Data pipeline and timing](docs/DATA_PIPELINE.en.md) · [数据流程与时间边界](docs/DATA_PIPELINE.zh-CN.md)
+- [HRV definitions and implementation](docs/FEATURES.en.md) · [HRV 特征与实现条件](docs/FEATURES.zh-CN.md)
+- [Result interpretation and error cases](docs/RESULTS_ANALYSIS.en.md) · [结果解读与错误案例](docs/RESULTS_ANALYSIS.zh-CN.md)
 - [Full English report](results/v2/report.en.md)
 - [完整中文实验报告](results/v2/report.zh-CN.md)
 - [Figure catalogue / 图表目录](docs/FIGURES.md)

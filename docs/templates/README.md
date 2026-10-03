@@ -16,8 +16,8 @@ Predict the sleep stage of each **30-second** segment from brain activity and he
 - **Data:** MIT-BIH PSG and ISRUC-Sleep III; 26 subjects, 28 recordings, 18,770 retained epochs; 22 training and 4 test subjects, **no validation set**.
 - **Methods:** shared spectral EEG encoder and temporal Transformer; EEG-only, HRV-only, concatenation, quality-constrained residual gating, modality dropout and context-length comparisons.
 - **Experiments:** 7 variants × 3 seeds × 40 fixed epochs; 21 runs and 840 training epochs; normal-input and fully missing-HRV evaluation.
-- **Scores:** highest mean individual-run scores belong to EEG-only A1: Accuracy **67.22%**, Macro-F1 **0.6171**. Its three-model probability ensemble scores **70.22% / 0.6407**.
-- **Fusion outcome:** mean Accuracy and Macro-F1 of A3–A6 are below EEG control A0. Full A6 ensemble scores **65.10% / 0.5862**; adding HRV did not improve overall performance under this protocol.
+- **Scores:** highest mean individual-run scores belong to EEG-only A1: Accuracy **{{BEST_ACC}}**, Macro-F1 **{{BEST_F1}}**. Its three-model probability ensemble scores **{{A1_ENS_ACC}} / {{A1_ENS_F1}}**.
+- **Fusion outcome:** mean Accuracy and Macro-F1 of A3–A6 are below EEG control A0. Full A6 ensemble scores **{{A6_ENS_ACC}} / {{A6_ENS_F1}}**; adding HRV did not improve overall performance under this protocol.
 
 The four test subjects were already evaluated in version 1. These are **exploratory reused-holdout results** for one subject split, rather than fresh external validation or clinical diagnostic evidence.
 
@@ -78,17 +78,11 @@ Three individual models: **mean ± sample SD**; N1/REM F1 are seed means. Accura
 
 | ID | Variant | Accuracy | Macro-F1 | N1 F1 | REM F1 |
 |---|---|---:|---:|---:|---:|
-| A0 | EEG / 5 epochs | 67.05% ± 0.24 pp | 0.5991 ± 0.0029 | 0.5740 | 0.2521 |
-| A1 | EEG / 15 epochs | 67.22% ± 1.82 pp | 0.6171 ± 0.0221 | 0.5840 | 0.3224 |
-| A2 | HRV / 5 epochs | 36.36% ± 2.40 pp | 0.3002 ± 0.0311 | 0.1123 | 0.2376 |
-| A3 | Concat / 5 epochs | 64.00% ± 2.14 pp | 0.5789 ± 0.0348 | 0.4185 | 0.2676 |
-| A4 | Gated / 5 epochs | 63.78% ± 1.47 pp | 0.5900 ± 0.0188 | 0.4263 | 0.3688 |
-| A5 | Gated + drop / 5 epochs | 64.44% ± 0.81 pp | 0.5866 ± 0.0099 | 0.4418 | 0.3198 |
-| A6 | Gated + drop / 15 epochs | 63.96% ± 0.68 pp | 0.5834 ± 0.0038 | 0.4136 | 0.3081 |
+{{RESULT_ROWS}}
 
 ![Seven variants and seed variability](results/v2/figures/ablation_results.png)
 
-Read the figure: points show three individual seeds; bars and error bars show means and sample SD. **Ensembles** separately average the three models' class probabilities before argmax, for every variant. Ensemble scores and mean individual-run scores are distinct. Full A6 versus A0 changes mean Accuracy by **-3.09 percentage points** and Macro-F1 by **-0.0157**.
+Read the figure: points show three individual seeds; bars and error bars show means and sample SD. **Ensembles** separately average the three models' class probabilities before argmax, for every variant. Ensemble scores and mean individual-run scores are distinct. Full A6 versus A0 changes mean Accuracy by **{{DELTA_ACC}} percentage points** and Macro-F1 by **{{DELTA_F1}}**.
 
 Stage changes differ in direction: A4 REM F1 is 0.3688 (A0: 0.2521), while N1 F1 is 0.4263 (A0: 0.5740). With HRV fully unavailable, A5 versus A4 increases mean Accuracy by 6.85 percentage points and Macro-F1 by 0.0739. These are observed outcomes of this predefined stress test.
 

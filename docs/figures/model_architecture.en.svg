@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="802.8pt" height="420.768pt" viewBox="0 0 802.8 420.768" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T02:30:39.128899</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 420.768
+L 802.8 420.768
+L 802.8 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 20.844 161.0424
+L 131.886 161.0424
+Q 136.908 161.0424 136.908 156.0528
+L 136.908 88.416
+Q 136.908 83.4264 131.886 83.4264
+L 20.844 83.4264
+Q 15.822 83.4264 15.822 88.416
+L 15.822 156.0528
+Q 15.822 161.0424 20.844 161.0424
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #dceaf6; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 160.344 161.0424
+L 335.556 161.0424
+Q 340.578 161.0424 340.578 156.0528
+L 340.578 88.416
+Q 340.578 83.4264 335.556 83.4264
+L 160.344 83.4264
+Q 155.322 83.4264 155.322 88.416
+L 155.322 156.0528
+Q 155.322 161.0424 160.344 161.0424
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #dceaf6; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 369.594 161.0424
+L 544.806 161.0424
+Q 549.828 161.0424 549.828 156.0528
+L 549.828 88.416
+Q 549.828 83.4264 544.806 83.4264
+L 369.594 83.4264
+Q 364.572 83.4264 364.572 88.416
+L 364.572 156.0528
+Q 364.572 161.0424 369.594 161.0424
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #e9e4f5; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 578.844 161.0424
+L 731.736 161.0424
+Q 736.758 161.0424 736.758 156.0528
+L 736.758 88.416
+Q 736.758 83.4264 731.736 83.4264
+L 578.844 83.4264
+Q 573.822 83.4264 573.822 88.416
+L 573.822 156.0528
+Q 573.822 161.0424 578.844 161.0424
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #fff0ce; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 139.464501 121.68
+Q 145.836528 121.68 150.531505 121.68
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 145.731505 119.28
+L 150.531505 121.68
+L 145.731505 124.08
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 343.138588 121.68
+Q 352.297792 121.68 359.779946 121.68
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 354.979946 119.28
+L 359.779946 121.68
+L 354.979946 124.08
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 552.388588 121.68
+Q 561.547792 121.68 569.029946 121.68
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 564.229946 119.28
+L 569.029946 121.68
+L 564.229946 124.08
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 20.844 330.1344
+L 131.886 330.1344
+Q 136.908 330.1344 136.908 325.1448
+L 136.908 236.9952
+Q 136.908 232.0056 131.886 232.0056
+L 20.844 232.0056
+Q 15.822 232.0056 15.822 236.9952
+L 15.822 325.1448
+Q 15.822 330.1344 20.844 330.1344
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #dceaf6; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 160.344 269.1504
+L 335.556 269.1504
+Q 340.578 269.1504 340.578 264.1608
+L 340.578 218.7
+Q 340.578 213.7104 335.556 213.7104
+L 160.344 213.7104
+Q 155.322 213.7104 155.322 218.7
+L 155.322 264.1608
+Q 155.322 269.1504 160.344 269.1504
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #dceaf6; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 160.344 363.3984
+L 335.556 363.3984
+Q 340.578 363.3984 340.578 358.4088
+L 340.578 301.86
+Q 340.578 296.8704 335.556 296.8704
+L 160.344 296.8704
+Q 155.322 296.8704 155.322 301.86
+L 155.322 358.4088
+Q 155.322 363.3984 160.344 363.3984
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #e0f0e8; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 369.594 330.1344
+L 544.806 330.1344
+Q 549.828 330.1344 549.828 325.1448
+L 549.828 236.9952
+Q 549.828 232.0056 544.806 232.0056
+L 369.594 232.0056
+Q 364.572 232.0056 364.572 236.9952
+L 364.572 325.1448
+Q 364.572 330.1344 369.594 330.1344
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #fff0ce; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 578.844 330.1344
+L 731.736 330.1344
+Q 736.758 330.1344 736.758 325.1448
+L 736.758 236.9952
+Q 736.758 232.0056 731.736 232.0056
+L 578.844 232.0056
+Q 573.822 232.0056 573.822 236.9952
+L 573.822 325.1448
+Q 573.822 330.1344 578.844 330.1344
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #e9e4f5; stroke: #b9c8d8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 139.033332 253.490224
+Q 145.836214 248.08303 151.32624 243.719344
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 146.07528 244.827234
+L 151.32624 243.719344
+L 149.061976 248.584846
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 138.579684 306.291749
+Q 145.834896 317.104354 152.155677 326.524357
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 151.474112 321.20125
+L 152.155677 326.524357
+L 147.488253 323.875745
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 342.664506 242.721248
+Q 352.295039 250.854388 360.6443 257.905474
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 358.525596 252.974845
+L 360.6443 257.905474
+L 355.428575 256.642059
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 342.375697 328.009583
+Q 352.296975 315.441565 361.179132 304.189878
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 356.321215 306.470369
+L 361.179132 304.189878
+L 360.088775 309.444506
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 552.388588 282.456
+Q 561.547792 282.456 569.029946 282.456
+" clip-path="url(#p42bf1734aa)" style="fill: none; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 564.229946 280.056
+L 569.029946 282.456
+L 564.229946 284.856
+z
+" clip-path="url(#p42bf1734aa)" style="fill: #667a91; stroke: #667a91; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #20324a; font: 700 18px 'DejaVu Sans'; text-anchor: start" x="16.38" y="30.204" transform="rotate(-0 16.38 30.204)">Two-level Transformer: EEG control A1 and full fusion A6</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #52667f; font: 10px 'DejaVu Sans'; text-anchor: start" x="16.38" y="54.0432" transform="rotate(-0 16.38 54.0432)">B: batch size; L=15 (5 for A0/A3/A4/A5); contexts include current and past epochs</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="76.365" y="108.672239" transform="rotate(-0 76.365 108.672239)">EEG spectra</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(52.068062 131.505995)">[B,L,29,89]</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(49.39575 143.366057)">30 s / epoch</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="247.95" y="108.672239" transform="rotate(-0 247.95 108.672239)">Within-epoch encoder</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(183.630937 125.575964)">89→96 + positional encoding</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(185.074687 137.436026)">2-layer / 4-head Transformer</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(177.644187 149.296088)">Mean pool 29 frames → [B,L,96]</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="457.2" y="108.672239" transform="rotate(-0 457.2 108.672239)">Across-epoch encoder</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(390.466437 125.575964)">[B,L,96] + positional encoding</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(394.324687 137.436026)">2-layer / 4-head Transformer</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(417.149687 149.296088)">Padding-key mask</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="655.29" y="108.672239" transform="rotate(-0 655.29 108.672239)">Current-epoch head</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(617.577187 125.575964)">Last token [B,96]</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(590.99775 137.436026)">LayerNorm / Dropout / Linear</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(614.893187 149.296088)">5 logits → softmax</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #0072b2; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="19.17" y="181.5552" transform="rotate(-0 19.17 181.5552)">A1: EEG only; 309,029 parameters; 15 epochs</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="76.365" y="262.789895" transform="rotate(-0 76.365 262.789895)">A6 inputs</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(41.699875 288.103867)">EEG [B,L,29,89]</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(48.532937 299.96393)">HRV [B,L,55]</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(17.547312 311.823993)">26 values + 26 flags + 3 q</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="247.95" y="232.968719" transform="rotate(-0 247.95 232.968719)">Same EEG encoder</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'; text-anchor: middle" x="247.95" y="252.640346" transform="rotate(-0 247.95 252.640346)">29×89 → 96 / epoch</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="247.95" y="319.122479" transform="rotate(-0 247.95 319.122479)">Cardiac MLP</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(223.778875 337.410155)">55→96→96</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(176.465812 349.270217)">20% whole-context HRV dropout</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="457.2" y="262.750833" transform="rotate(-0 457.2 262.750833)">Quality-constrained gate</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(388.149563 288.103867)">g = sigmoid(195→1) × q1 × q2</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(399.96425 299.96393)">z = EEG + g × delta(HRV)</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(439.900438 311.823993)">[B,L,96]</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #20324a; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="655.29" y="262.789895" transform="rotate(-0 655.29 262.789895)">Temporal encoder + head</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(592.373437 288.103867)">Same layer definitions as A1</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(594.136188 299.96393)">2 layers / 4 heads / 96 dims</text>
+    <text style="fill: #20324a; font: 8.8px 'DejaVu Sans'" transform="translate(607.932937 311.823993)">Current token → [B,5]</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #52667f; font: 10px 'DejaVu Sans'; text-anchor: start" x="19.17" y="386.6832" transform="rotate(-0 19.17 386.6832)">A6: 342,921 parameters; missing HRV forces g=0; fallback retains A6's own trained weights</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p42bf1734aa">
+   <rect x="10.8" y="10.8" width="781.2" height="399.168"/>
+  </clipPath>
+ </defs>
+</svg>

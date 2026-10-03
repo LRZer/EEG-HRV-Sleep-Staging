@@ -1,0 +1,9 @@
+{
+  "eeg_record": "ISRUC-III-01",
+  "eeg_epoch": 37,
+  "ecg_record": "MIT-slp01a",
+  "ecg_start_seconds": 630,
+  "ecg_source": "ecg_review_00.npz",
+  "split": "train",
+  "case_rule": "First lexicographic record/epoch per outcome category with epoch>=14; normal A1/A6 ensembles"
+}

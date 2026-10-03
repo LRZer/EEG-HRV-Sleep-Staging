@@ -37,6 +37,8 @@ The table above gives the overall fusion contrasts; this run did not show a mult
 A4 versus A0: REM F1 0.3688 versus 0.2521, but N1 F1 0.4263 versus 0.5740; stage-specific changes differ in direction.
 With HRV unavailable, A5 versus A4 changes mean Accuracy by +6.85 pp and Macro-F1 by +0.0739. These are observed mean differences, without a population-significance claim.
 
+A4−A3 changes residual fusion and quality constraints together, so quality-factor benefit is not isolated. Companion technical documents describe feature implementation conditions and error cases.
+
 ## Per-stage metrics
 
 | ID | Stage | Precision mean | Recall mean | F1 mean | F1 SD | Support |

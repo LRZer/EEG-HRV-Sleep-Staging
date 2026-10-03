@@ -1,5 +1,14 @@
 # Version 2 methods / 第二轮实验方法
 
+[English overview](../README.md) · [中文概览](../README.zh-CN.md)
+
+Detailed companion documents / 详细配套文档：
+
+- [Architecture / 架构](ARCHITECTURE.en.md) · [中文](ARCHITECTURE.zh-CN.md)
+- [Data pipeline / 数据流程](DATA_PIPELINE.en.md) · [中文](DATA_PIPELINE.zh-CN.md)
+- [HRV dictionary / 特征字典](FEATURES.en.md) · [中文](FEATURES.zh-CN.md)
+- [Result interpretation / 结果解读](RESULTS_ANALYSIS.en.md) · [中文](RESULTS_ANALYSIS.zh-CN.md)
+
 ## Task and data / 任务与数据
 
 Five-class, 30-second sleep staging from one EEG channel and ECG-derived HRV. EEG is electrical activity measured at the scalp; ECG is the cardiac electrical waveform; HRV describes variation in successive heartbeat intervals. Output classes are Wake, N1, N2, N3 and REM.
@@ -14,7 +23,7 @@ Five-class, 30-second sleep staging from one EEG channel and ECG-derived HRV. EE
 
 ISRUC uses C4-A1 EEG, X2 ECG (EDF transducer: EKG_Channel) and scorer 1. The last 30 epochs per record are omitted following the provider's extracted-channel noise note; 8,889 original epochs remain unchanged on disk. MIT EEG montages vary by record. R&K stages 3 and 4 are merged as N3; ISRUC labels 0/1/2/3/5 map to the five classes. Unknown labels are excluded and interrupt sequence context.
 
-ISRUC 采用 C4-A1、X2 心电和第一位专家标注，依据提供方说明，每条记录末尾 30 个噪声窗口不进入实验。原始文件保留。MIT 各记录的脑电导联不同，旧评分的 3/4 期合并为 N3；标签名称对齐不代表评分标准完全一致。
+ISRUC 采用 C4-A1、X2 心电和第一位专家标注，参照提供方关于预提取通道末尾噪声的说明，每条原始记录末尾 30 个窗口按固定协议省略，不代表本项目已逐窗独立证明原始信号存在噪声。原始文件保留。MIT 各记录的脑电导联不同，旧评分的 3/4 期合并为 N3；标签名称对齐不代表评分标准完全一致。
 
 ## Split and evaluation status / 划分与评估性质
 
@@ -42,6 +51,12 @@ These coverage/plausibility indicators are not a clinically validated ECG qualit
 
 三个指示量用于描述覆盖和合理性，不作为临床验证的心电质量评分。连续输入只包括同一记录当前及过去的窗口，不跨标签缺口；不足时左侧填充并屏蔽。
 
+The EEG spans are 2.5/7.5 minutes; the union of nested HRV endpoint windows spans 7/12 minutes with full history: `300+(L−1)*30` seconds. These are statistical bounds, not a limit on the complete-record ECG detector. / EEG 历史为 2.5／7.5 分钟，嵌套 HRV 终点统计历史联合覆盖约 7／12 分钟，不等于离线检测器全部读取范围。
+
+Actual SleepECG 0.5.9 formulas include padded-row denominators for pNN50/pNN20, `cvSD=SDSD/mean(diff(NN))`, and second-based CVI. These implementation conditions are documented in the feature dictionary; frozen features/results were not changed in the documentation revision. / 特征字典说明 pNN 填充分母、cvSD 公式和 CVI 秒单位等实际条件；文档整理未重算冻结特征或成绩。
+
+pNN padding width is determined over the complete record, potentially depending on later windows. Local RR endpoint selection is historical, but the complete HRV pipeline is not established as strictly causal. / pNN 填充宽度来自完整记录，可能依赖较晚窗口；局部 RR 终点虽按历史选取，整个 HRV 流程不能视作已验证的严格因果实现。
+
 ## Model variants / 模型组
 
 | ID | Inputs | Fusion | Context epochs | HRV dropout |
@@ -63,6 +78,8 @@ Gated fusion: `fused = EEG + g * delta(HRV)`, where `g = sigmoid(gate([EEG,HRV,q
 门控融合保留 EEG 主路径，以可学习权重加入 HRV 修正；心脏信息全缺失时权重为 0。A5/A6 在训练时随机丢弃整段 HRV 上下文，概率为 20%。回退路径仍使用该融合模型的训练权重，不等同于另行训练的 A0。
 
 Architectures are independent lightweight adaptations. This is not an exact reproduction of SleepTransformer, AttnSleep, GMU or ModDrop, nor a claim of methodological novelty.
+
+A4−A3 changes residual fusion and quality constraints together; no separate gate-without-quality variant is scored. Thus it does not isolate quality-factor benefit. / A4−A3 同时改变残差融合和质量约束，本轮没有仅关闭质量因子的独立对照，不能单独归因于质量约束。
 
 ## Fixed training / 固定训练
 
